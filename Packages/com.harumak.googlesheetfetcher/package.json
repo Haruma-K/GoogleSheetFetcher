@@ -1,0 +1,7 @@
+{
+    "name": "com.harumak.googlesheetfetcher",
+    "displayName": "GoogleSheetFetcher",
+    "version": "0.0.0",
+    "unity": "2019.3",
+    "description": "The simple interface Google Sheets reader for Unity editor."
+}
