@@ -83,6 +83,21 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "yB4rMF7DV3lI+vTtfxY4hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "manual/license.md",
       "output": {
@@ -100,22 +115,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "cmr6tBvPDb8hZOPi4lDwLA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "manual/usage.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/usage.html",
-          "hash": "a6mSrnjz0P/TFWxCYLlgYw=="
+          "hash": "pjLZ12EV374Ibr7XI5w2jg=="
         }
       },
       "is_incremental": false,
@@ -182,7 +182,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "M/QuU2cQr1DFRxxc0sAMMw=="
+          "hash": "vgzYQMGuOX5RtwXBFqfopw=="
         }
       },
       "is_incremental": false,
