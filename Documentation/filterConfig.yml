@@ -1,8 +1,5 @@
 apiRules:
 - include:
-    uidRegex: ^Global
-    type: Namespace
-- include:
     uidRegex: ^GoogleSheetFetcher\.*
     type: Namespace
 - exclude:
