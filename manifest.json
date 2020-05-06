@@ -76,7 +76,34 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "O4Cqi/YwaRE6/iDP8Vh7RA=="
+          "hash": "0btR3RdxOoKzZSg8O3J1uA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "yB4rMF7DV3lI+vTtfxY4hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/license.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/license.html",
+          "hash": "vxJ0VFpyVY0O10BPeilRGw=="
         }
       },
       "is_incremental": false,
@@ -88,19 +115,62 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "G2e1YrkVcHR9iRzQy7/rtw=="
+          "hash": "pjLZ12EV374Ibr7XI5w2jg=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "manual/top.md",
+      "type": "Resource",
+      "source_relative_path": "resources/index/consent_screen.png",
       "output": {
-        ".html": {
-          "relative_path": "manual/top.html",
-          "hash": "X9NJCvMHQuwoB3CS1Jj+5Q=="
+        "resource": {
+          "relative_path": "resources/index/consent_screen.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/index/create_project.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/index/create_project.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/index/internal_or_external.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/index/internal_or_external.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/index/oauth_client_id.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/index/oauth_client_id.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/index/oauth_client_id_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/index/oauth_client_id_2.png"
         }
       },
       "is_incremental": false,
@@ -112,7 +182,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "t1OvC/0mVjt8Z1vvR53W7A=="
+          "hash": "vgzYQMGuOX5RtwXBFqfopw=="
         }
       },
       "is_incremental": false,
@@ -133,13 +203,20 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 3,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
