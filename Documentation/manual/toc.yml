@@ -1,2 +1,4 @@
-- name: top
-  href: top.md
+- name: Usage
+  href: index.md
+- name: License
+  href: license.md
