@@ -1,0 +1,61 @@
+{
+    "metadata": [
+        {
+            "src": [
+                {
+                    "src": "..",
+                    "files": [ "**.csproj" ]
+                }
+            ],
+            "globalNamespaceId": "Global",
+            "filter": "filterConfig.yml",
+            "dest": "api"
+        }
+    ],
+    "build": {
+        "globalMetadata": {
+            "_appTitle": "Google Sheet Fetcher Documentation",
+            "_appFooter": "Google Sheet Fetcher Documentation",
+            "_enableSearch": true
+        },
+        "content": [
+            {
+                "files": [ "toc.yml", "index.md" ]
+            },
+            {
+                "src": "api",
+                "files": [ "*.yml" ],
+                "dest": "api"
+            },
+            {
+                "src": "manual",
+                "files": [ "toc.yml", "*.md" ],
+                "dest": "manual"
+            }
+        ],
+        "overwrite": [
+            {
+                "src": "..",
+                "files": [ "Assets/Scripts/**/*.md" ]
+            }
+        ],
+        "resource": [
+            {
+                "files": [ "resources/**/*" ]
+            }
+        ],
+        "sitemap":
+        {
+            "baseUrl": "https://haruma-k.github.io/GoogleSheetFetcher",
+            "changefreq": "weekly",
+            "fileOptions": {
+                "api/*": {
+                    "changefreq": "daily"
+                }
+            }
+        },
+        "xref": [ "https://normanderwan.github.io/DocFxForUnity/Unity/xrefmap.yml" ],
+        "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ],
+        "dest": "../_site"
+    }
+}

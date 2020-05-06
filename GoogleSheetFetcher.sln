@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSheetFetcher.Editor", "GoogleSheetFetcher.Editor.csproj", "{43716F6E-F2B8-6E26-596E-6C70792B9AB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{94268EE8-0FE6-5451-35FD-3444BAE9CE22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43716F6E-F2B8-6E26-596E-6C70792B9AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43716F6E-F2B8-6E26-596E-6C70792B9AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43716F6E-F2B8-6E26-596E-6C70792B9AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43716F6E-F2B8-6E26-596E-6C70792B9AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94268EE8-0FE6-5451-35FD-3444BAE9CE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94268EE8-0FE6-5451-35FD-3444BAE9CE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94268EE8-0FE6-5451-35FD-3444BAE9CE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94268EE8-0FE6-5451-35FD-3444BAE9CE22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
