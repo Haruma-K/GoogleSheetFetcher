@@ -1,3 +1,108 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: GoogleSheetFetcher.Editor
+  name: GoogleSheetFetcher.Editor
+  href: api/GoogleSheetFetcher.Editor.html
+  commentId: N:GoogleSheetFetcher.Editor
+  fullName: GoogleSheetFetcher.Editor
+  nameWithType: GoogleSheetFetcher.Editor
+- uid: GoogleSheetFetcher.Editor.Fetcher
+  name: Fetcher
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html
+  commentId: T:GoogleSheetFetcher.Editor.Fetcher
+  fullName: GoogleSheetFetcher.Editor.Fetcher
+  nameWithType: Fetcher
+- uid: GoogleSheetFetcher.Editor.Fetcher.DidInitialize
+  name: DidInitialize
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_DidInitialize
+  commentId: P:GoogleSheetFetcher.Editor.Fetcher.DidInitialize
+  fullName: GoogleSheetFetcher.Editor.Fetcher.DidInitialize
+  nameWithType: Fetcher.DidInitialize
+- uid: GoogleSheetFetcher.Editor.Fetcher.DidInitialize*
+  name: DidInitialize
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_DidInitialize_
+  commentId: Overload:GoogleSheetFetcher.Editor.Fetcher.DidInitialize
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.Fetcher.DidInitialize
+  nameWithType: Fetcher.DidInitialize
+- uid: GoogleSheetFetcher.Editor.Fetcher.FetchSheetsAsync(System.String)
+  name: FetchSheetsAsync(String)
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_FetchSheetsAsync_System_String_
+  commentId: M:GoogleSheetFetcher.Editor.Fetcher.FetchSheetsAsync(System.String)
+  fullName: GoogleSheetFetcher.Editor.Fetcher.FetchSheetsAsync(System.String)
+  nameWithType: Fetcher.FetchSheetsAsync(String)
+- uid: GoogleSheetFetcher.Editor.Fetcher.FetchSheetsAsync*
+  name: FetchSheetsAsync
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_FetchSheetsAsync_
+  commentId: Overload:GoogleSheetFetcher.Editor.Fetcher.FetchSheetsAsync
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.Fetcher.FetchSheetsAsync
+  nameWithType: Fetcher.FetchSheetsAsync
+- uid: GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync(System.String,GoogleSheetFetcher.Editor.Sheet)
+  name: FetchValuesAsync(String, Sheet)
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_FetchValuesAsync_System_String_GoogleSheetFetcher_Editor_Sheet_
+  commentId: M:GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync(System.String,GoogleSheetFetcher.Editor.Sheet)
+  fullName: GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync(System.String, GoogleSheetFetcher.Editor.Sheet)
+  nameWithType: Fetcher.FetchValuesAsync(String, Sheet)
+- uid: GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync(System.String,System.String)
+  name: FetchValuesAsync(String, String)
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_FetchValuesAsync_System_String_System_String_
+  commentId: M:GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync(System.String,System.String)
+  fullName: GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync(System.String, System.String)
+  nameWithType: Fetcher.FetchValuesAsync(String, String)
+- uid: GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync*
+  name: FetchValuesAsync
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_FetchValuesAsync_
+  commentId: Overload:GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync
+  nameWithType: Fetcher.FetchValuesAsync
+- uid: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: InitializeAsync(String, String, String, Nullable<CancellationToken>)
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: InitializeAsync(String, String, String, Nullable(Of CancellationToken))
+  fullName: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String, System.String, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String, System.String, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: Fetcher.InitializeAsync(String, String, String, Nullable<CancellationToken>)
+  nameWithType.vb: Fetcher.InitializeAsync(String, String, String, Nullable(Of CancellationToken))
+- uid: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync*
+  name: InitializeAsync
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_
+  commentId: Overload:GoogleSheetFetcher.Editor.Fetcher.InitializeAsync
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync
+  nameWithType: Fetcher.InitializeAsync
+- uid: GoogleSheetFetcher.Editor.Sheet
+  name: Sheet
+  href: api/GoogleSheetFetcher.Editor.Sheet.html
+  commentId: T:GoogleSheetFetcher.Editor.Sheet
+  fullName: GoogleSheetFetcher.Editor.Sheet
+  nameWithType: Sheet
+- uid: GoogleSheetFetcher.Editor.Sheet.Id
+  name: Id
+  href: api/GoogleSheetFetcher.Editor.Sheet.html#GoogleSheetFetcher_Editor_Sheet_Id
+  commentId: P:GoogleSheetFetcher.Editor.Sheet.Id
+  fullName: GoogleSheetFetcher.Editor.Sheet.Id
+  nameWithType: Sheet.Id
+- uid: GoogleSheetFetcher.Editor.Sheet.Id*
+  name: Id
+  href: api/GoogleSheetFetcher.Editor.Sheet.html#GoogleSheetFetcher_Editor_Sheet_Id_
+  commentId: Overload:GoogleSheetFetcher.Editor.Sheet.Id
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.Sheet.Id
+  nameWithType: Sheet.Id
+- uid: GoogleSheetFetcher.Editor.Sheet.Name
+  name: Name
+  href: api/GoogleSheetFetcher.Editor.Sheet.html#GoogleSheetFetcher_Editor_Sheet_Name
+  commentId: P:GoogleSheetFetcher.Editor.Sheet.Name
+  fullName: GoogleSheetFetcher.Editor.Sheet.Name
+  nameWithType: Sheet.Name
+- uid: GoogleSheetFetcher.Editor.Sheet.Name*
+  name: Name
+  href: api/GoogleSheetFetcher.Editor.Sheet.html#GoogleSheetFetcher_Editor_Sheet_Name_
+  commentId: Overload:GoogleSheetFetcher.Editor.Sheet.Name
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.Sheet.Name
+  nameWithType: Sheet.Name

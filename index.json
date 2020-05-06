@@ -1,4 +1,19 @@
 {
+  "api/GoogleSheetFetcher.Editor.Fetcher.html": {
+    "href": "api/GoogleSheetFetcher.Editor.Fetcher.html",
+    "title": "Class Fetcher | Google Sheet Fetcher Documentation",
+    "keywords": "Class Fetcher Inheritance Object Fetcher Namespace : GoogleSheetFetcher.Editor Assembly : GoogleSheetFetcher.Editor.dll Syntax public class Fetcher Properties | Improve this Doc View Source DidInitialize Declaration public bool DidInitialize { get; } Property Value Type Description Boolean Methods | Improve this Doc View Source FetchSheetsAsync(String) Fetch the information of all the sheets contained in the spread sheet. Declaration public Task<IList<Sheet>> FetchSheetsAsync(string spreadsheetId) Parameters Type Name Description String spreadsheetId The spreadsheet id. Returns Type Description Task < IList < Sheet >> The list of the information of all the sheets. | Improve this Doc View Source FetchValuesAsync(String, Sheet) Fetch all the values contained in the sheet. Declaration public Task<IList<IList<object>>> FetchValuesAsync(string spreadsheetId, Sheet sheet = null) Parameters Type Name Description String spreadsheetId The spreadsheet id. Sheet sheet The Sheet instance obtained as the result of FetchSheetsAsync(String) . Returns Type Description Task < IList < IList < Object >>> The list of the rows. | Improve this Doc View Source FetchValuesAsync(String, String) Fetch all the values contained in the sheet. Declaration public Task<IList<IList<object>>> FetchValuesAsync(string spreadsheetId, string sheetName = null) Parameters Type Name Description String spreadsheetId The spreadsheet id. String sheetName The sheet name. Returns Type Description Task < IList < IList < Object >>> The list of the rows. | Improve this Doc View Source InitializeAsync(String, String, String, Nullable<CancellationToken>) Initialize the Fetcher . Declaration public Task InitializeAsync(string clientId, string clientSecret, string applicationId, CancellationToken? cancellationToken = default(CancellationToken? )) Parameters Type Name Description String clientId Google OAuth2 Client ID. String clientSecret Google OAuth2 Client Secret. String applicationId The identifier to use the for file to store the credentials. Nullable < CancellationToken > cancellationToken CancellationToken to cancel the initialization process. Returns Type Description Task"
+  },
+  "api/GoogleSheetFetcher.Editor.html": {
+    "href": "api/GoogleSheetFetcher.Editor.html",
+    "title": "Namespace GoogleSheetFetcher.Editor | Google Sheet Fetcher Documentation",
+    "keywords": "Namespace GoogleSheetFetcher.Editor Classes Fetcher Sheet"
+  },
+  "api/GoogleSheetFetcher.Editor.Sheet.html": {
+    "href": "api/GoogleSheetFetcher.Editor.Sheet.html",
+    "title": "Class Sheet | Google Sheet Fetcher Documentation",
+    "keywords": "Class Sheet Inheritance Object Sheet Namespace : GoogleSheetFetcher.Editor Assembly : GoogleSheetFetcher.Editor.dll Syntax public class Sheet Properties | Improve this Doc View Source Id The gid of the sheet. Declaration public string Id { get; } Property Value Type Description String | Improve this Doc View Source Name The sheet name. Declaration public string Name { get; } Property Value Type Description String"
+  },
   "index.html": {
     "href": "index.html",
     "title": "GoogleSheetFetcher | Google Sheet Fetcher Documentation",

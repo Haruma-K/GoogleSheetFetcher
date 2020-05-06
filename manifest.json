@@ -2,6 +2,7 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
+        "baseUrl": "https://haruma-k.github.io/GoogleSheetFetcher/",
         "changefreq": "daily"
       }
     },
@@ -20,6 +21,54 @@
         }
       },
       "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSheetFetcher.Editor.Fetcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSheetFetcher.Editor.Fetcher.html",
+          "hash": "P0BeQVWit4CSgwJjpwtMFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSheetFetcher.Editor.Sheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSheetFetcher.Editor.Sheet.html",
+          "hash": "0gFt96iiVeOzgBT7REXhfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSheetFetcher.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSheetFetcher.Editor.html",
+          "hash": "+pEa+MOE20VUFd0dxa/XUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "PJJARdNqgDz0AR6KJZg68Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     },
     {
       "type": "Conceptual",
@@ -63,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "1fVysU2RPQ8j0KUk6gzdIQ=="
+          "hash": "t1OvC/0mVjt8Z1vvR53W7A=="
         }
       },
       "is_incremental": false,
@@ -85,6 +134,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
