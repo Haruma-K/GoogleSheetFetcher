@@ -1,32 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/Global.Demo.html</loc>
-    <lastmod>2020-05-06T08:44:33+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/Global.DemoInspector.html</loc>
-    <lastmod>2020-05-06T08:44:33+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/Global.html</loc>
-    <lastmod>2020-05-06T08:44:33+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://haruma-k.github.io/GoogleSheetFetcher/index.html</loc>
-    <lastmod>2020-05-06T08:44:33+00:00</lastmod>
+    <lastmod>2020-05-06T09:03:05+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://haruma-k.github.io/GoogleSheetFetcher/manual/top.html</loc>
-    <lastmod>2020-05-06T08:44:33+00:00</lastmod>
+    <lastmod>2020-05-06T09:03:05+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

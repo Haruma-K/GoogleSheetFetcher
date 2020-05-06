@@ -1,19 +1,4 @@
 {
-  "api/Global.Demo.html": {
-    "href": "api/Global.Demo.html",
-    "title": "Class Demo | Google Sheet Fetcher Documentation",
-    "keywords": "Class Demo Inheritance Object Demo Namespace : Global Assembly : Assembly-CSharp-Editor.dll Syntax public class Demo : ScriptableObject Properties | Improve this Doc View Source DidFetcherInitialize Declaration public bool DidFetcherInitialize { get; } Property Value Type Description Boolean Methods | Improve this Doc View Source InitializeAsync() Initialize the spread sheet fetcher. Declaration public Task InitializeAsync() Returns Type Description Task | Improve this Doc View Source LogAllSheetNamesAsync() Log the names of all the sheets. Declaration public Task LogAllSheetNamesAsync() Returns Type Description Task | Improve this Doc View Source LogAllValuesOfFirstSheetAsync() Log all the values of the first sheets. Declaration public Task LogAllValuesOfFirstSheetAsync() Returns Type Description Task"
-  },
-  "api/Global.DemoInspector.html": {
-    "href": "api/Global.DemoInspector.html",
-    "title": "Class DemoInspector | Google Sheet Fetcher Documentation",
-    "keywords": "Class DemoInspector Inheritance Object DemoInspector Namespace : Global Assembly : Assembly-CSharp-Editor.dll Syntax public class DemoInspector : Editor Methods | Improve this Doc View Source OnInspectorGUI() Declaration public override void OnInspectorGUI()"
-  },
-  "api/Global.html": {
-    "href": "api/Global.html",
-    "title": "Namespace Global | Google Sheet Fetcher Documentation",
-    "keywords": "Namespace Global Classes Demo DemoInspector"
-  },
   "index.html": {
     "href": "index.html",
     "title": "GoogleSheetFetcher | Google Sheet Fetcher Documentation",
