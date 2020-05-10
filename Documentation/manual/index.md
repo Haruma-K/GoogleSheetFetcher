@@ -27,7 +27,7 @@ Add the dependency to your manifest.json as follows.
 
 ```
 
-## Create Google Client ID & Client Secret
+## Set up the Google API
 
 #### Create the project
 Go to [Google Developer Console](https://console.developers.google.com/apis).
@@ -63,7 +63,20 @@ Select `Other` for the application type, enter an `Name` and click on the `Creat
 |![Create Project](../resources/index/oauth_client_id_2.png)|
 |:-:|
 
-## Write a script
+#### Enable APIs
+Enable the APIs to be used.
+Select `Library` from the menu on the left.
+
+|![Create Project](../resources/index/enable_apis_1.png)|
+|:-:|
+
+Then search the `Google Sheets API` and click on the `Enable` button.
+And enable the `Google Drive API` in the same way.
+
+|![Create Project](../resources/index/enable_apis_2.png)|
+|:-:|
+
+## Write scripts
 
 #### Initialize
 First, instantiate and initialize the Fetcher.
