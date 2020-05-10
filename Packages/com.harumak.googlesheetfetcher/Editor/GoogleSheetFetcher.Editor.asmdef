@@ -12,7 +12,8 @@
         "Google.Apis.Core.dll",
         "Google.Apis.dll",
         "Google.Apis.Sheets.v4.dll",
-        "Newtonsoft.Json.dll"
+        "Newtonsoft.Json.dll",
+        "Google.Apis.Drive.v3.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],

@@ -70,6 +70,27 @@ public class Demo : ScriptableObject
             Debug.LogError(e);
         }
     }
+
+    /// <summary>
+    /// Log the names of all the files in the root of drive.
+    /// </summary>
+    public async Task LogAllRootFileNamesAsync()
+    {
+        try
+        {
+            var result = await _fetcher.FetchFilesAsync("root", new []{ FileType.Folder, FileType.Spreadsheet });
+            
+            foreach (var file in result.Files)
+            {
+                Debug.Log($"{file.Name} ({file.FileType})");
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError(e);
+            throw;
+        }
+    }
 }
 
 [CustomEditor(typeof(Demo))]
@@ -103,7 +124,16 @@ public class DemoInspector : Editor
 
         using (new GUILayout.VerticalScope(GUI.skin.box))
         {
-            EditorGUILayout.LabelField("Fetch", EditorStyles.boldLabel);
+            EditorGUILayout.LabelField("Fetch files", EditorStyles.boldLabel);
+            if (GUILayout.Button("Log all the names of all the files in the root of drive."))
+            {
+                component.LogAllRootFileNamesAsync();
+            }
+        }
+
+        using (new GUILayout.VerticalScope(GUI.skin.box))
+        {
+            EditorGUILayout.LabelField("Fetch spreadsheet", EditorStyles.boldLabel);
             EditorGUILayout.PropertyField(spreadsheetIdProp);
             if (GUILayout.Button("Log the names of all sheets"))
             {
