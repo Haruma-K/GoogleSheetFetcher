@@ -91,7 +91,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "yB4rMF7DV3lI+vTtfxY4hw=="
+          "hash": "L1HCTrZ/Yjz4KlTRr3p5IA=="
         }
       },
       "is_incremental": false,
@@ -138,6 +138,28 @@
       "output": {
         "resource": {
           "relative_path": "resources/index/create_project.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/index/enable_apis_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/index/enable_apis_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/index/enable_apis_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/index/enable_apis_2.png"
         }
       },
       "is_incremental": false,

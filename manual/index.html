@@ -98,7 +98,7 @@
     &quot;com.harumak.googlesheetfetcher&quot;: &quot;file:com.harumak.googlesheetfetcher&quot;
   }
 }
-</code></pre><h2 id="create-google-client-id--client-secret">Create Google Client ID &amp; Client Secret</h2>
+</code></pre><h2 id="set-up-the-google-api">Set up the Google API</h2>
 <h4 id="create-the-project">Create the project</h4>
 <p>Go to <a href="https://console.developers.google.com/apis">Google Developer Console</a>.</p>
 <p>If you don&#39;t have project, select <code>Select a project &gt; NEW PROJECT</code> to create a project.
@@ -171,7 +171,36 @@ And select <code>CREATE CREDENTIALS &gt; OAuth Client ID</code>.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="write-a-script">Write a script</h2>
+<h4 id="enable-apis">Enable APIs</h4>
+<p>Enable the APIs to be used.
+Select <code>Library</code> from the menu on the left.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="../resources/index/enable_apis_1.png" alt="Create Project"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>Then search the <code>Google Sheets API</code> and click on the <code>Enable</code> button.
+And enable the <code>Google Drive API</code> in the same way.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="../resources/index/enable_apis_2.png" alt="Create Project"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="write-scripts">Write scripts</h2>
 <h4 id="initialize">Initialize</h4>
 <p>First, instantiate and initialize the Fetcher.</p>
 <pre><code class="lang-cs">// Google OAuth2 authorization.
