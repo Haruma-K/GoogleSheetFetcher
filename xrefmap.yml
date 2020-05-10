@@ -26,6 +26,22 @@ references:
   isSpec: "True"
   fullName: GoogleSheetFetcher.Editor.Fetcher.DidInitialize
   nameWithType: Fetcher.DidInitialize
+- uid: GoogleSheetFetcher.Editor.Fetcher.FetchFilesAsync(System.String,GoogleSheetFetcher.Editor.FileType[],System.Int32,System.String)
+  name: FetchFilesAsync(String, FileType[], Int32, String)
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_FetchFilesAsync_System_String_GoogleSheetFetcher_Editor_FileType___System_Int32_System_String_
+  commentId: M:GoogleSheetFetcher.Editor.Fetcher.FetchFilesAsync(System.String,GoogleSheetFetcher.Editor.FileType[],System.Int32,System.String)
+  name.vb: FetchFilesAsync(String, FileType(), Int32, String)
+  fullName: GoogleSheetFetcher.Editor.Fetcher.FetchFilesAsync(System.String, GoogleSheetFetcher.Editor.FileType[], System.Int32, System.String)
+  fullName.vb: GoogleSheetFetcher.Editor.Fetcher.FetchFilesAsync(System.String, GoogleSheetFetcher.Editor.FileType(), System.Int32, System.String)
+  nameWithType: Fetcher.FetchFilesAsync(String, FileType[], Int32, String)
+  nameWithType.vb: Fetcher.FetchFilesAsync(String, FileType(), Int32, String)
+- uid: GoogleSheetFetcher.Editor.Fetcher.FetchFilesAsync*
+  name: FetchFilesAsync
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_FetchFilesAsync_
+  commentId: Overload:GoogleSheetFetcher.Editor.Fetcher.FetchFilesAsync
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.Fetcher.FetchFilesAsync
+  nameWithType: Fetcher.FetchFilesAsync
 - uid: GoogleSheetFetcher.Editor.Fetcher.FetchSheetsAsync(System.String)
   name: FetchSheetsAsync(String)
   href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_FetchSheetsAsync_System_String_
@@ -58,6 +74,15 @@ references:
   isSpec: "True"
   fullName: GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync
   nameWithType: Fetcher.FetchValuesAsync
+- uid: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Nullable{System.Threading.CancellationToken})
+  name: InitializeAsync(String, String, String, List<String>, Nullable<CancellationToken>)
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_System_Collections_Generic_List_System_String__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Nullable{System.Threading.CancellationToken})
+  name.vb: InitializeAsync(String, String, String, List(Of String), Nullable(Of CancellationToken))
+  fullName: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String, System.String, System.String, System.Collections.Generic.List<System.String>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String, System.String, System.String, System.Collections.Generic.List(Of System.String), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: Fetcher.InitializeAsync(String, String, String, List<String>, Nullable<CancellationToken>)
+  nameWithType.vb: Fetcher.InitializeAsync(String, String, String, List(Of String), Nullable(Of CancellationToken))
 - uid: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
   name: InitializeAsync(String, String, String, Nullable<CancellationToken>)
   href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
@@ -74,6 +99,101 @@ references:
   isSpec: "True"
   fullName: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync
   nameWithType: Fetcher.InitializeAsync
+- uid: GoogleSheetFetcher.Editor.File
+  name: File
+  href: api/GoogleSheetFetcher.Editor.File.html
+  commentId: T:GoogleSheetFetcher.Editor.File
+  fullName: GoogleSheetFetcher.Editor.File
+  nameWithType: File
+- uid: GoogleSheetFetcher.Editor.File.FileType
+  name: FileType
+  href: api/GoogleSheetFetcher.Editor.File.html#GoogleSheetFetcher_Editor_File_FileType
+  commentId: P:GoogleSheetFetcher.Editor.File.FileType
+  fullName: GoogleSheetFetcher.Editor.File.FileType
+  nameWithType: File.FileType
+- uid: GoogleSheetFetcher.Editor.File.FileType*
+  name: FileType
+  href: api/GoogleSheetFetcher.Editor.File.html#GoogleSheetFetcher_Editor_File_FileType_
+  commentId: Overload:GoogleSheetFetcher.Editor.File.FileType
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.File.FileType
+  nameWithType: File.FileType
+- uid: GoogleSheetFetcher.Editor.File.Id
+  name: Id
+  href: api/GoogleSheetFetcher.Editor.File.html#GoogleSheetFetcher_Editor_File_Id
+  commentId: P:GoogleSheetFetcher.Editor.File.Id
+  fullName: GoogleSheetFetcher.Editor.File.Id
+  nameWithType: File.Id
+- uid: GoogleSheetFetcher.Editor.File.Id*
+  name: Id
+  href: api/GoogleSheetFetcher.Editor.File.html#GoogleSheetFetcher_Editor_File_Id_
+  commentId: Overload:GoogleSheetFetcher.Editor.File.Id
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.File.Id
+  nameWithType: File.Id
+- uid: GoogleSheetFetcher.Editor.File.Name
+  name: Name
+  href: api/GoogleSheetFetcher.Editor.File.html#GoogleSheetFetcher_Editor_File_Name
+  commentId: P:GoogleSheetFetcher.Editor.File.Name
+  fullName: GoogleSheetFetcher.Editor.File.Name
+  nameWithType: File.Name
+- uid: GoogleSheetFetcher.Editor.File.Name*
+  name: Name
+  href: api/GoogleSheetFetcher.Editor.File.html#GoogleSheetFetcher_Editor_File_Name_
+  commentId: Overload:GoogleSheetFetcher.Editor.File.Name
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.File.Name
+  nameWithType: File.Name
+- uid: GoogleSheetFetcher.Editor.FileList
+  name: FileList
+  href: api/GoogleSheetFetcher.Editor.FileList.html
+  commentId: T:GoogleSheetFetcher.Editor.FileList
+  fullName: GoogleSheetFetcher.Editor.FileList
+  nameWithType: FileList
+- uid: GoogleSheetFetcher.Editor.FileList.Files
+  name: Files
+  href: api/GoogleSheetFetcher.Editor.FileList.html#GoogleSheetFetcher_Editor_FileList_Files
+  commentId: P:GoogleSheetFetcher.Editor.FileList.Files
+  fullName: GoogleSheetFetcher.Editor.FileList.Files
+  nameWithType: FileList.Files
+- uid: GoogleSheetFetcher.Editor.FileList.Files*
+  name: Files
+  href: api/GoogleSheetFetcher.Editor.FileList.html#GoogleSheetFetcher_Editor_FileList_Files_
+  commentId: Overload:GoogleSheetFetcher.Editor.FileList.Files
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.FileList.Files
+  nameWithType: FileList.Files
+- uid: GoogleSheetFetcher.Editor.FileList.NextPageToken
+  name: NextPageToken
+  href: api/GoogleSheetFetcher.Editor.FileList.html#GoogleSheetFetcher_Editor_FileList_NextPageToken
+  commentId: P:GoogleSheetFetcher.Editor.FileList.NextPageToken
+  fullName: GoogleSheetFetcher.Editor.FileList.NextPageToken
+  nameWithType: FileList.NextPageToken
+- uid: GoogleSheetFetcher.Editor.FileList.NextPageToken*
+  name: NextPageToken
+  href: api/GoogleSheetFetcher.Editor.FileList.html#GoogleSheetFetcher_Editor_FileList_NextPageToken_
+  commentId: Overload:GoogleSheetFetcher.Editor.FileList.NextPageToken
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.FileList.NextPageToken
+  nameWithType: FileList.NextPageToken
+- uid: GoogleSheetFetcher.Editor.FileType
+  name: FileType
+  href: api/GoogleSheetFetcher.Editor.FileType.html
+  commentId: T:GoogleSheetFetcher.Editor.FileType
+  fullName: GoogleSheetFetcher.Editor.FileType
+  nameWithType: FileType
+- uid: GoogleSheetFetcher.Editor.FileType.Folder
+  name: Folder
+  href: api/GoogleSheetFetcher.Editor.FileType.html#GoogleSheetFetcher_Editor_FileType_Folder
+  commentId: F:GoogleSheetFetcher.Editor.FileType.Folder
+  fullName: GoogleSheetFetcher.Editor.FileType.Folder
+  nameWithType: FileType.Folder
+- uid: GoogleSheetFetcher.Editor.FileType.Spreadsheet
+  name: Spreadsheet
+  href: api/GoogleSheetFetcher.Editor.FileType.html#GoogleSheetFetcher_Editor_FileType_Spreadsheet
+  commentId: F:GoogleSheetFetcher.Editor.FileType.Spreadsheet
+  fullName: GoogleSheetFetcher.Editor.FileType.Spreadsheet
+  nameWithType: FileType.Spreadsheet
 - uid: GoogleSheetFetcher.Editor.Sheet
   name: Sheet
   href: api/GoogleSheetFetcher.Editor.Sheet.html

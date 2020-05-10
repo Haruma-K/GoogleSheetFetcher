@@ -28,7 +28,43 @@
       "output": {
         ".html": {
           "relative_path": "api/GoogleSheetFetcher.Editor.Fetcher.html",
-          "hash": "P0BeQVWit4CSgwJjpwtMFg=="
+          "hash": "Za03w+qgyp1AlMm27aWYqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSheetFetcher.Editor.File.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSheetFetcher.Editor.File.html",
+          "hash": "INDODswx95YA8Vo8O2/JUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSheetFetcher.Editor.FileList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSheetFetcher.Editor.FileList.html",
+          "hash": "ULsodlzuAApQJLF8EchqkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSheetFetcher.Editor.FileType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSheetFetcher.Editor.FileType.html",
+          "hash": "hY4JQ3Vzn/Nz08B+YaVpbQ=="
         }
       },
       "is_incremental": false,
@@ -52,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GoogleSheetFetcher.Editor.html",
-          "hash": "+pEa+MOE20VUFd0dxa/XUw=="
+          "hash": "UB6atlawi38JOIa4TSlc1A=="
         }
       },
       "is_incremental": false,
@@ -64,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "PJJARdNqgDz0AR6KJZg68Q=="
+          "hash": "VU5glrfM0tx2XCfzqwiTXg=="
         }
       },
       "is_incremental": false,
@@ -231,7 +267,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 6,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
