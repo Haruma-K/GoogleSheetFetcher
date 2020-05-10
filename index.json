@@ -32,7 +32,7 @@
   "index.html": {
     "href": "index.html",
     "title": "GoogleSheetFetcher | Google Sheet Fetcher Documentation",
-    "keywords": "GoogleSheetFetcher Overview The GoogleSheetFetcher is the simple interface Google Sheets reader for Unity editor. You can do OAuth2 authorization and fetch the spreadsheet values by writing the following. // Google OAuth2 authorization. var fetcher = new Fetcher(); await fetcher.InitializeAsync(_clientId, _clientSecret, _applicationId); // Get all the values in the sheet. var values = await fetcher.FetchValuesAsync(_spreadsheetId, sheets[0]); Usage Please refer to the manual for usage. License This library is under the MIT License . This software includes the work that is distributed in the Apache License 2.0 ."
+    "keywords": "GoogleSheetFetcher Overview The Simple Google Sheets reader for Unity editor. You can do OAuth2 authorization and fetch the spreadsheet values by writing the following. // Google OAuth2 authorization. var fetcher = new Fetcher(); await fetcher.InitializeAsync(_clientId, _clientSecret, _applicationId); // Get all the values in the sheet. var values = await fetcher.FetchValuesAsync(_spreadsheetId, sheets[0]); Usage Please refer to the manual for usage. License This library is under the MIT License . This software includes the work that is distributed in the Apache License 2.0 ."
   },
   "manual/index.html": {
     "href": "manual/index.html",
