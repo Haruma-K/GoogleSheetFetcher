@@ -1,7 +1,7 @@
 # GoogleSheetFetcher
 
 ## Overview
-The GoogleSheetFetcher is the simple interface Google Sheets reader for Unity editor.
+The Simple Google Sheets reader for Unity editor.
 You can do OAuth2 authorization and fetch the spreadsheet values by writing the following.
 
 ```cs
