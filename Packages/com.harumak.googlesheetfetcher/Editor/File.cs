@@ -9,7 +9,5 @@ namespace GoogleSheetFetcher.Editor
         public string Id { get; internal set; }
         public string Name { get; internal set; }
         public FileType FileType { get; internal set; }
-        
-        
     }
 }

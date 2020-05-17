@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -6,7 +7,6 @@ using Google.Apis.Auth.OAuth2;
 using Google.Apis.Drive.v3;
 using Google.Apis.Services;
 using Google.Apis.Sheets.v4;
-using NUnit.Framework;
 
 namespace GoogleSheetFetcher.Editor
 {
@@ -46,12 +46,6 @@ namespace GoogleSheetFetcher.Editor
         /// <param name="cancellationToken"><see cref="CancellationToken"/> to cancel the initialization process.</param>
         public async Task InitializeAsync(string clientId, string clientSecret, string applicationId, List<string> scopes, CancellationToken? cancellationToken = null)
         {
-            Assert.That(!DidInitialize);
-            Assert.That(clientId, Is.Not.Null.Or.Empty);
-            Assert.That(clientSecret, Is.Not.Null.Or.Empty);
-            Assert.That(applicationId, Is.Not.Null.Or.Empty);
-            Assert.That(scopes, Is.Not.Null.Or.Empty);
-
             // Add the required scopes if it is not included.
             if (!scopes.Contains(SheetsService.Scope.Drive) && !scopes.Contains(SheetsService.Scope.DriveReadonly))
             {
@@ -91,8 +85,10 @@ namespace GoogleSheetFetcher.Editor
         /// <param name="pageToken">A token to fetch the next page.</param>
         public async Task<FileList> FetchFilesAsync(string folderIdOrName, FileType[] fileTypes, int pageSize = 100, string pageToken = null)
         {
-            Assert.That(folderIdOrName, Is.Not.Null.Or.Empty);
-            Assert.That(fileTypes, Is.Not.Null.Or.Empty);
+            if (!DidInitialize)
+            {
+                throw new InvalidOperationException("The Fetcher is not be initialized.");
+            }
             
             var listRequest = _driveService.Files.List();
             listRequest.PageSize = pageSize;
@@ -134,9 +130,11 @@ namespace GoogleSheetFetcher.Editor
         /// <returns>The list of the information of all the sheets.</returns>
         public async Task<IList<Sheet>> FetchSheetsAsync(string spreadsheetId)
         {
-            Assert.That(DidInitialize);
-            Assert.That(spreadsheetId, Is.Not.Null.Or.Empty);
-            
+            if (!DidInitialize)
+            {
+                throw new InvalidOperationException("The Fetcher is not be initialized.");
+            }
+
             var result = await _sheetService.Spreadsheets
                 .Get(spreadsheetId)
                 .ExecuteAsync();
@@ -158,9 +156,11 @@ namespace GoogleSheetFetcher.Editor
         /// <returns>The list of the rows.</returns>
         public async Task<IList<IList<object>>> FetchValuesAsync(string spreadsheetId, string sheetName = null)
         {
-            Assert.That(DidInitialize);
-            Assert.That(spreadsheetId, Is.Not.Null.Or.Empty);
-            
+            if (!DidInitialize)
+            {
+                throw new InvalidOperationException("The Fetcher is not be initialized.");
+            }
+
             var result = await _sheetService.Spreadsheets
                 .Values
                 .Get(spreadsheetId, sheetName)
