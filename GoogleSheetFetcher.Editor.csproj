@@ -58,6 +58,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Packages\com.harumak.googlesheetfetcher\Editor\AsyncControl\AsyncControl.cs" />
+    <Compile Include="Packages\com.harumak.googlesheetfetcher\Editor\AsyncControl\AsyncControlHandle.cs" />
+    <Compile Include="Packages\com.harumak.googlesheetfetcher\Editor\AsyncControl\AsyncControlStatus.cs" />
+    <Compile Include="Packages\com.harumak.googlesheetfetcher\Editor\AsyncControlImpl\AuthorizeAsyncControl.cs" />
+    <Compile Include="Packages\com.harumak.googlesheetfetcher\Editor\AsyncControlImpl\FetchFilesAsyncControl.cs" />
+    <Compile Include="Packages\com.harumak.googlesheetfetcher\Editor\AsyncControlImpl\FetchSheetValuesAsyncControl.cs" />
+    <Compile Include="Packages\com.harumak.googlesheetfetcher\Editor\AsyncControlImpl\FetchSheetsAsyncControl.cs" />
     <Compile Include="Packages\com.harumak.googlesheetfetcher\Editor\Fetcher.cs" />
     <Compile Include="Packages\com.harumak.googlesheetfetcher\Editor\File.cs" />
     <Compile Include="Packages\com.harumak.googlesheetfetcher\Editor\FileList.cs" />

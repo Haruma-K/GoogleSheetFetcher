@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using Google.Apis.Auth.OAuth2;
 using Google.Apis.Drive.v3;
 using Google.Apis.Services;
 using Google.Apis.Sheets.v4;
+using GoogleSheetFetcher.Editor.AsyncControl;
 
 namespace GoogleSheetFetcher.Editor
 {
@@ -25,15 +22,14 @@ namespace GoogleSheetFetcher.Editor
         /// <param name="clientId">Google OAuth2 Client ID.</param>
         /// <param name="clientSecret">Google OAuth2 Client Secret.</param>
         /// <param name="applicationId">The identifier to use the for file to store the credentials.</param>
-        /// <param name="cancellationToken"><see cref="CancellationToken"/> to cancel the initialization process.</param>
-        public async Task InitializeAsync(string clientId, string clientSecret, string applicationId, CancellationToken? cancellationToken = null)
+        public AsyncControlHandle InitializeAsync(string clientId, string clientSecret, string applicationId)
         {
             var scopes = new List<string>
             {
                 SheetsService.Scope.DriveReadonly,
                 SheetsService.Scope.SpreadsheetsReadonly,
             };
-            await InitializeAsync(clientId, clientSecret, applicationId, scopes, cancellationToken);
+            return InitializeAsync(clientId, clientSecret, applicationId, scopes);
         }
         
         /// <summary>
@@ -43,37 +39,22 @@ namespace GoogleSheetFetcher.Editor
         /// <param name="clientSecret">Google OAuth2 Client Secret.</param>
         /// <param name="applicationId">The identifier to use the for file to store the credentials.</param>
         /// <param name="scopes">The scopes you want to use.</param>
-        /// <param name="cancellationToken"><see cref="CancellationToken"/> to cancel the initialization process.</param>
-        public async Task InitializeAsync(string clientId, string clientSecret, string applicationId, List<string> scopes, CancellationToken? cancellationToken = null)
+        public AsyncControlHandle InitializeAsync(string clientId, string clientSecret, string applicationId, List<string> scopes)
         {
-            // Add the required scopes if it is not included.
-            if (!scopes.Contains(SheetsService.Scope.Drive) && !scopes.Contains(SheetsService.Scope.DriveReadonly))
+            var control = new AuthorizeAsyncControl(clientId, clientSecret, applicationId, scopes);
+            control.Start();
+            control.Completed += () =>
             {
-                scopes.Add(SheetsService.Scope.DriveReadonly);
-            }
-            if (!scopes.Contains(SheetsService.Scope.Spreadsheets) && !scopes.Contains(SheetsService.Scope.SpreadsheetsReadonly))
-            {
-                scopes.Add(SheetsService.Scope.SpreadsheetsReadonly);
-            }
 
-            var credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
-                new ClientSecrets
+                var initializer = new BaseClientService.Initializer
                 {
-                    ClientId = clientId,
-                    ClientSecret = clientSecret
-                },
-                scopes,
-                applicationId,
-                cancellationToken ?? CancellationToken.None);
-
-            var initializer = new BaseClientService.Initializer
-            {
-                HttpClientInitializer = credential
+                    HttpClientInitializer = control.Result
+                };
+                _driveService = new DriveService(initializer);
+                _sheetService = new SheetsService(initializer);
+                DidInitialize = true;
             };
-            _driveService = new DriveService(initializer);
-            _sheetService = new SheetsService(initializer);
-            
-            DidInitialize = true;
+            return new AsyncControlHandle(control);
         }
 
         /// <summary>
@@ -83,44 +64,16 @@ namespace GoogleSheetFetcher.Editor
         /// <param name="fileTypes">An array of FileType you needed.</param>
         /// <param name="pageSize">Number of data to be fetched at one time.</param>
         /// <param name="pageToken">A token to fetch the next page.</param>
-        public async Task<FileList> FetchFilesAsync(string folderIdOrName, FileType[] fileTypes, int pageSize = 100, string pageToken = null)
+        public AsyncControlHandle<FileList> FetchFilesAsync(string folderIdOrName, FileType[] fileTypes, int pageSize = 100, string pageToken = null)
         {
             if (!DidInitialize)
             {
                 throw new InvalidOperationException("The Fetcher is not be initialized.");
             }
-            
-            var listRequest = _driveService.Files.List();
-            listRequest.PageSize = pageSize;
-            listRequest.PageToken = pageToken;
-            listRequest.Q = $"'{folderIdOrName}' in parents and " +
-                            "trashed=false and ";
-            
-            // Add MimeTypes.
-            listRequest.Q += "(";
-            for (var i = 0; i < fileTypes.Length; i++)
-            {
-                var fileType = fileTypes[i];
-                if (i >= 1)
-                {
-                    listRequest.Q += " or ";
-                }
-                listRequest.Q += $"mimeType='{MimeType.FromFileType(fileType)}'";
-            }
-            listRequest.Q += ")";
-            
-            var result = await listRequest.ExecuteAsync();
-            var files = result.Files.Select(x => new File
-            {
-                Id = x.Id,
-                Name = x.Name,
-                FileType = MimeType.ToFileType(x.MimeType)
-            }).ToArray();
-            return new FileList
-            {
-                NextPageToken = result.NextPageToken,
-                Files = files
-            };
+
+            var control = new FetchFilesAsyncControl(_driveService, folderIdOrName, fileTypes, pageSize, pageToken);
+            control.Start();
+            return new AsyncControlHandle<FileList>(control);
         }
         
         /// <summary>
@@ -128,24 +81,16 @@ namespace GoogleSheetFetcher.Editor
         /// </summary>
         /// <param name="spreadsheetId"><para>The spreadsheet id.</para></param>
         /// <returns>The list of the information of all the sheets.</returns>
-        public async Task<IList<Sheet>> FetchSheetsAsync(string spreadsheetId)
+        public AsyncControlHandle<IList<Sheet>> FetchSheetsAsync(string spreadsheetId)
         {
             if (!DidInitialize)
             {
                 throw new InvalidOperationException("The Fetcher is not be initialized.");
             }
 
-            var result = await _sheetService.Spreadsheets
-                .Get(spreadsheetId)
-                .ExecuteAsync();
-            
-            return result.Sheets
-                .Select(x => new Sheet
-                {
-                    Id = x.Properties.SheetId.HasValue ? x.Properties.SheetId.ToString() : null,
-                    Name = x.Properties.Title
-                })
-                .ToList();
+            var control = new FetchSheetsAsyncControl(_sheetService, spreadsheetId);
+            control.Start();
+            return new AsyncControlHandle<IList<Sheet>>(control);
         }
         
         /// <summary>
@@ -154,18 +99,16 @@ namespace GoogleSheetFetcher.Editor
         /// <param name="spreadsheetId">The spreadsheet id.</param>
         /// <param name="sheetName">The sheet name.</param>
         /// <returns>The list of the rows.</returns>
-        public async Task<IList<IList<object>>> FetchValuesAsync(string spreadsheetId, string sheetName = null)
+        public AsyncControlHandle<IList<IList<object>>> FetchValuesAsync(string spreadsheetId, string sheetName = null)
         {
             if (!DidInitialize)
             {
                 throw new InvalidOperationException("The Fetcher is not be initialized.");
             }
 
-            var result = await _sheetService.Spreadsheets
-                .Values
-                .Get(spreadsheetId, sheetName)
-                .ExecuteAsync();
-            return result.Values;
+            var control = new FetchSheetValuesAsyncControl(_sheetService, spreadsheetId);
+            control.Start();
+            return new AsyncControlHandle<IList<IList<object>>>(control);
         }
 
         /// <summary>
@@ -174,7 +117,7 @@ namespace GoogleSheetFetcher.Editor
         /// <param name="spreadsheetId">The spreadsheet id.</param>
         /// <param name="sheet">The <see cref="Sheet"/> instance obtained as the result of <see cref="FetchSheetsAsync"/>.</param>
         /// <returns>The list of the rows.</returns>
-        public Task<IList<IList<object>>> FetchValuesAsync(string spreadsheetId, Sheet sheet = null)
+        public AsyncControlHandle<IList<IList<object>>> FetchValuesAsync(string spreadsheetId, Sheet sheet = null)
         {
             return FetchValuesAsync(spreadsheetId, sheet?.Name);
         }

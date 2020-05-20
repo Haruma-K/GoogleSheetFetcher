@@ -24,7 +24,7 @@ public class Demo : ScriptableObject
         try
         {
             _fetcher = new Fetcher();
-            await _fetcher.InitializeAsync(_clientId, _clientSecret, _applicationId);
+            await _fetcher.InitializeAsync(_clientId, _clientSecret, _applicationId).Task;
         }
         catch (Exception e)
         {
@@ -39,7 +39,7 @@ public class Demo : ScriptableObject
     {
         try
         {
-            var sheets = await _fetcher.FetchSheetsAsync(_spreadsheetId);
+            var sheets = await _fetcher.FetchSheetsAsync(_spreadsheetId).Task;
             foreach (var sheet in sheets)
             {
                 Debug.Log(sheet.Name);
@@ -58,8 +58,8 @@ public class Demo : ScriptableObject
     {
         try
         {
-            var sheets = await _fetcher.FetchSheetsAsync(_spreadsheetId);
-            var values = await _fetcher.FetchValuesAsync(_spreadsheetId, sheets[0]);
+            var sheets = await _fetcher.FetchSheetsAsync(_spreadsheetId).Task;
+            var values = await _fetcher.FetchValuesAsync(_spreadsheetId, sheets[0]).Task;
             foreach (var row in values)
             {
                 Debug.Log(row.Count >= 1 ? row.Aggregate((a, b) => $"{a},{b}") : "");
@@ -78,7 +78,7 @@ public class Demo : ScriptableObject
     {
         try
         {
-            var result = await _fetcher.FetchFilesAsync("root", new []{ FileType.Folder, FileType.Spreadsheet });
+            var result = await _fetcher.FetchFilesAsync("root", new[] {FileType.Folder, FileType.Spreadsheet}).Task;
             
             foreach (var file in result.Files)
             {
