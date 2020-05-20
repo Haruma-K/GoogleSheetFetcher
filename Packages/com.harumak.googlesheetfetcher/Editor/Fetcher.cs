@@ -42,7 +42,6 @@ namespace GoogleSheetFetcher.Editor
         public AsyncControlHandle InitializeAsync(string clientId, string clientSecret, string applicationId, List<string> scopes)
         {
             var control = new AuthorizeAsyncControl(clientId, clientSecret, applicationId, scopes);
-            control.Start();
             control.Completed += () =>
             {
 
@@ -54,6 +53,7 @@ namespace GoogleSheetFetcher.Editor
                 _sheetService = new SheetsService(initializer);
                 DidInitialize = true;
             };
+            control.Start();
             return new AsyncControlHandle(control);
         }
 
