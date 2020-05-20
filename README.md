@@ -7,10 +7,10 @@ You can do OAuth2 authorization and fetch the spreadsheet values by writing the 
 ```cs
 // Google OAuth2 authorization.
 var fetcher = new Fetcher();
-await fetcher.InitializeAsync(_clientId, _clientSecret, _applicationId);
+await fetcher.InitializeAsync(_clientId, _clientSecret, _applicationId).Task;
 
 // Get all the values in the sheet.
-var values = await fetcher.FetchValuesAsync(_spreadsheetId, sheets[0]);
+var values = await fetcher.FetchValuesAsync(_spreadsheetId, sheets[0]).Task;
 ```
 
 ## Usage

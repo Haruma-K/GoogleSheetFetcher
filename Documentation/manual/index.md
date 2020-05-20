@@ -84,7 +84,7 @@ First, instantiate and initialize the Fetcher.
 ```cs
 // Google OAuth2 authorization.
 var fetcher = new Fetcher();
-await fetcher.InitializeAsync(_clientId, _clientSecret, _applicationId);
+await fetcher.InitializeAsync(_clientId, _clientSecret, _applicationId).Task;
 ```
 
 Then, the OAuth2 authentication page by Google will be opened.
@@ -95,7 +95,7 @@ After the authorization, you can fetch the data from Spreadsheet.
 
 ```cs
 // Get all the values in the sheet.
-var values = await fetcher.FetchValuesAsync(_spreadsheetId, sheets[0]);
+var values = await fetcher.FetchValuesAsync(_spreadsheetId, sheets[0]).Task;
 ```
 
 For other APIs, refer to the [API documentation of the Fetcher class](../api/GoogleSheetFetcher.Editor.Fetcher.html).
