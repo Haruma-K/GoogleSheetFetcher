@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Google.Apis.Sheets.v4;
-using GoogleSheetFetcher.Editor.AsyncControl;
+using GoogleSheetFetcher.Editor.AsyncControls;
 
 namespace GoogleSheetFetcher.Editor
 {

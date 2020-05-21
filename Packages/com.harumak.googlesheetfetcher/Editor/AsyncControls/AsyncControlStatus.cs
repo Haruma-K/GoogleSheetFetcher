@@ -1,7 +1,7 @@
-﻿namespace GoogleSheetFetcher.Editor.AsyncControl
+﻿namespace GoogleSheetFetcher.Editor.AsyncControls
 {
     /// <summary>
-    /// The status of the <see cref="AsyncControl"/>.
+    /// The status of the <see cref="AsyncControls"/>.
     /// </summary>
     public enum AsyncControlStatus
     {

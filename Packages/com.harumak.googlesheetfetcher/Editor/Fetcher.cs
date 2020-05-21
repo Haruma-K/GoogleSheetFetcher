@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Google.Apis.Drive.v3;
 using Google.Apis.Services;
 using Google.Apis.Sheets.v4;
-using GoogleSheetFetcher.Editor.AsyncControl;
+using GoogleSheetFetcher.Editor.AsyncControls;
 
 namespace GoogleSheetFetcher.Editor
 {

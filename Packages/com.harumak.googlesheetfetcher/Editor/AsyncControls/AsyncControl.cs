@@ -3,7 +3,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace GoogleSheetFetcher.Editor.AsyncControl
+namespace GoogleSheetFetcher.Editor.AsyncControls
 {
     public interface IAsyncControl
     {

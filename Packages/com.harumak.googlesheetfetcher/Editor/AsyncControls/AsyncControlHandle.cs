@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Threading.Tasks;
 
-namespace GoogleSheetFetcher.Editor.AsyncControl
+namespace GoogleSheetFetcher.Editor.AsyncControls
 {
     public class AsyncControlHandle : IEnumerator
     {

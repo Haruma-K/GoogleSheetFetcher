@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Google.Apis.Drive.v3;
-using GoogleSheetFetcher.Editor.AsyncControl;
+using GoogleSheetFetcher.Editor.AsyncControls;
 
 namespace GoogleSheetFetcher.Editor
 {
