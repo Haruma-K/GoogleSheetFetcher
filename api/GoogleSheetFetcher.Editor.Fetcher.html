@@ -103,7 +103,7 @@
     <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_Fetcher_DidInitialize.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.Fetcher.DidInitialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L15">View Source</a>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L12">View Source</a>
   </span>
   <a id="GoogleSheetFetcher_Editor_Fetcher_DidInitialize_" data-uid="GoogleSheetFetcher.Editor.Fetcher.DidInitialize*"></a>
   <h4 id="GoogleSheetFetcher_Editor_Fetcher_DidInitialize" data-uid="GoogleSheetFetcher.Editor.Fetcher.DidInitialize">DidInitialize</h4>
@@ -135,7 +135,7 @@
     <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_Fetcher_FetchFilesAsync_System_String_GoogleSheetFetcher_Editor_FileType___System_Int32_System_String_.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.Fetcher.FetchFilesAsync(System.String%2CGoogleSheetFetcher.Editor.FileType%5B%5D%2CSystem.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L86">View Source</a>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L67">View Source</a>
   </span>
   <a id="GoogleSheetFetcher_Editor_Fetcher_FetchFilesAsync_" data-uid="GoogleSheetFetcher.Editor.Fetcher.FetchFilesAsync*"></a>
   <h4 id="GoogleSheetFetcher_Editor_Fetcher_FetchFilesAsync_System_String_GoogleSheetFetcher_Editor_FileType___System_Int32_System_String_" data-uid="GoogleSheetFetcher.Editor.Fetcher.FetchFilesAsync(System.String,GoogleSheetFetcher.Editor.FileType[],System.Int32,System.String)">FetchFilesAsync(String, FileType[], Int32, String)</h4>
@@ -144,7 +144,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;FileList&gt; FetchFilesAsync(string folderIdOrName, FileType[] fileTypes, int pageSize = 100, string pageToken = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public AsyncControlHandle&lt;FileList&gt; FetchFilesAsync(string folderIdOrName, FileType[] fileTypes, int pageSize = 100, string pageToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -192,7 +192,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="GoogleSheetFetcher.Editor.FileList.html">FileList</a>&gt;</td>
+        <td><a class="xref" href="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html">AsyncControlHandle</a>&lt;<a class="xref" href="GoogleSheetFetcher.Editor.FileList.html">FileList</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -202,7 +202,7 @@
     <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_Fetcher_FetchSheetsAsync_System_String_.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.Fetcher.FetchSheetsAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L131">View Source</a>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L84">View Source</a>
   </span>
   <a id="GoogleSheetFetcher_Editor_Fetcher_FetchSheetsAsync_" data-uid="GoogleSheetFetcher.Editor.Fetcher.FetchSheetsAsync*"></a>
   <h4 id="GoogleSheetFetcher_Editor_Fetcher_FetchSheetsAsync_System_String_" data-uid="GoogleSheetFetcher.Editor.Fetcher.FetchSheetsAsync(System.String)">FetchSheetsAsync(String)</h4>
@@ -211,7 +211,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IList&lt;Sheet&gt;&gt; FetchSheetsAsync(string spreadsheetId)</code></pre>
+    <pre><code class="lang-csharp hljs">public AsyncControlHandle&lt;IList&lt;Sheet&gt;&gt; FetchSheetsAsync(string spreadsheetId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -240,7 +240,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="GoogleSheetFetcher.Editor.Sheet.html">Sheet</a>&gt;&gt;</td>
+        <td><a class="xref" href="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html">AsyncControlHandle</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="GoogleSheetFetcher.Editor.Sheet.html">Sheet</a>&gt;&gt;</td>
         <td><p>The list of the information of all the sheets.</p>
 </td>
       </tr>
@@ -251,7 +251,7 @@
     <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_Fetcher_FetchValuesAsync_System_String_GoogleSheetFetcher_Editor_Sheet_.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync(System.String%2CGoogleSheetFetcher.Editor.Sheet)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L177">View Source</a>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L120">View Source</a>
   </span>
   <a id="GoogleSheetFetcher_Editor_Fetcher_FetchValuesAsync_" data-uid="GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync*"></a>
   <h4 id="GoogleSheetFetcher_Editor_Fetcher_FetchValuesAsync_System_String_GoogleSheetFetcher_Editor_Sheet_" data-uid="GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync(System.String,GoogleSheetFetcher.Editor.Sheet)">FetchValuesAsync(String, Sheet)</h4>
@@ -260,7 +260,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IList&lt;IList&lt;object&gt;&gt;&gt; FetchValuesAsync(string spreadsheetId, Sheet sheet = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public AsyncControlHandle&lt;IList&lt;IList&lt;object&gt;&gt;&gt; FetchValuesAsync(string spreadsheetId, Sheet sheet = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -296,7 +296,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>&gt;&gt;&gt;</td>
+        <td><a class="xref" href="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html">AsyncControlHandle</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>&gt;&gt;&gt;</td>
         <td><p>The list of the rows.</p>
 </td>
       </tr>
@@ -307,7 +307,7 @@
     <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_Fetcher_FetchValuesAsync_System_String_System_String_.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L157">View Source</a>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L102">View Source</a>
   </span>
   <a id="GoogleSheetFetcher_Editor_Fetcher_FetchValuesAsync_" data-uid="GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync*"></a>
   <h4 id="GoogleSheetFetcher_Editor_Fetcher_FetchValuesAsync_System_String_System_String_" data-uid="GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync(System.String,System.String)">FetchValuesAsync(String, String)</h4>
@@ -316,7 +316,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IList&lt;IList&lt;object&gt;&gt;&gt; FetchValuesAsync(string spreadsheetId, string sheetName = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public AsyncControlHandle&lt;IList&lt;IList&lt;object&gt;&gt;&gt; FetchValuesAsync(string spreadsheetId, string sheetName = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -352,7 +352,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>&gt;&gt;&gt;</td>
+        <td><a class="xref" href="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html">AsyncControlHandle</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>&gt;&gt;&gt;</td>
         <td><p>The list of the rows.</p>
 </td>
       </tr>
@@ -360,19 +360,82 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_System_Collections_Generic_List_System_String__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String%2CSystem.String%2CSystem.String%2CSystem.Collections.Generic.List%7BSystem.String%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L47">View Source</a>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L25">View Source</a>
   </span>
   <a id="GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_" data-uid="GoogleSheetFetcher.Editor.Fetcher.InitializeAsync*"></a>
-  <h4 id="GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_System_Collections_Generic_List_System_String__System_Nullable_System_Threading_CancellationToken__" data-uid="GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Nullable{System.Threading.CancellationToken})">InitializeAsync(String, String, String, List&lt;String&gt;, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_" data-uid="GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String)">InitializeAsync(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Initialize the <a class="xref" href="GoogleSheetFetcher.Editor.Fetcher.html">Fetcher</a> with the following scopes.</p>
+<p>* <a href="https://www.googleapis.com/auth/drive.readonly">https://www.googleapis.com/auth/drive.readonly</a></p>
+<p>* <a href="https://www.googleapis.com/auth/spreadsheets.readonly">https://www.googleapis.com/auth/spreadsheets.readonly</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AsyncControlHandle InitializeAsync(string clientId, string clientSecret, string applicationId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">clientId</span></td>
+        <td><p>Google OAuth2 Client ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">clientSecret</span></td>
+        <td><p>Google OAuth2 Client Secret.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">applicationId</span></td>
+        <td><p>The identifier to use the for file to store the credentials.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html">AsyncControlHandle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_System_Collections_Generic_List_System_String__.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String%2CSystem.String%2CSystem.String%2CSystem.Collections.Generic.List%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L42">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_" data-uid="GoogleSheetFetcher.Editor.Fetcher.InitializeAsync*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_System_Collections_Generic_List_System_String__" data-uid="GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Collections.Generic.List{System.String})">InitializeAsync(String, String, String, List&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Initialize the <a class="xref" href="GoogleSheetFetcher.Editor.Fetcher.html">Fetcher</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task InitializeAsync(string clientId, string clientSecret, string applicationId, List&lt;string&gt; scopes, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public AsyncControlHandle InitializeAsync(string clientId, string clientSecret, string applicationId, List&lt;string&gt; scopes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -408,12 +471,6 @@
         <td><p>The scopes you want to use.</p>
 </td>
       </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>&gt;</td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td><p><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> to cancel the initialization process.</p>
-</td>
-      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -426,76 +483,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L29">View Source</a>
-  </span>
-  <a id="GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_" data-uid="GoogleSheetFetcher.Editor.Fetcher.InitializeAsync*"></a>
-  <h4 id="GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Nullable{System.Threading.CancellationToken})">InitializeAsync(String, String, String, Nullable&lt;CancellationToken&gt;)</h4>
-  <div class="markdown level1 summary"><p>Initialize the <a class="xref" href="GoogleSheetFetcher.Editor.Fetcher.html">Fetcher</a> with the following scopes.</p>
-<p>* <a href="https://www.googleapis.com/auth/drive.readonly">https://www.googleapis.com/auth/drive.readonly</a></p>
-<p>* <a href="https://www.googleapis.com/auth/spreadsheets.readonly">https://www.googleapis.com/auth/spreadsheets.readonly</a></p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task InitializeAsync(string clientId, string clientSecret, string applicationId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">clientId</span></td>
-        <td><p>Google OAuth2 Client ID.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">clientSecret</span></td>
-        <td><p>Google OAuth2 Client Secret.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">applicationId</span></td>
-        <td><p>The identifier to use the for file to store the credentials.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>&gt;</td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td><p><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> to cancel the initialization process.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><a class="xref" href="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html">AsyncControlHandle</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -511,7 +499,7 @@
                     <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_Fetcher.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.Fetcher%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/Fetcher.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

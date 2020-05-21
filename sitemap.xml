@@ -1,56 +1,122 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html</loc>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html</loc>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html</loc>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html</loc>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.html</loc>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html</loc>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.AsyncControl.html</loc>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.AuthorizeAsyncControl.html</loc>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.Fetcher.html</loc>
-    <lastmod>2020-05-17T12:30:26+00:00</lastmod>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.FetchFilesAsyncControl.html</loc>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.html</loc>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.html</loc>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.File.html</loc>
-    <lastmod>2020-05-17T12:30:26+00:00</lastmod>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.FileList.html</loc>
-    <lastmod>2020-05-17T12:30:26+00:00</lastmod>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.FileType.html</loc>
-    <lastmod>2020-05-17T12:30:26+00:00</lastmod>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.Sheet.html</loc>
-    <lastmod>2020-05-17T12:30:26+00:00</lastmod>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://haruma-k.github.io/GoogleSheetFetcher/api/GoogleSheetFetcher.Editor.html</loc>
-    <lastmod>2020-05-17T12:30:26+00:00</lastmod>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://haruma-k.github.io/GoogleSheetFetcher/index.html</loc>
-    <lastmod>2020-05-17T12:30:26+00:00</lastmod>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://haruma-k.github.io/GoogleSheetFetcher/manual/index.html</loc>
-    <lastmod>2020-05-17T12:30:26+00:00</lastmod>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://haruma-k.github.io/GoogleSheetFetcher/manual/license.html</loc>
-    <lastmod>2020-05-17T12:30:26+00:00</lastmod>
+    <lastmod>2020-05-21T12:53:49+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

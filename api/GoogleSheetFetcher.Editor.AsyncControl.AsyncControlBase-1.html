@@ -1,0 +1,593 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AsyncControlBase&lt;TResult&gt;
+   | Google Sheet Fetcher Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AsyncControlBase&lt;TResult&gt;
+   | Google Sheet Fetcher Documentation ">
+    <meta name="generator" content="docfx 2.53.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1">
+  
+  
+  <h1 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1" class="text-break">Class AsyncControlBase&lt;TResult&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>A base class for the implementation of asynchronous processing.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">AsyncControlBase&lt;TResult&gt;</span></div>
+      <div class="level2"><a class="xref" href="GoogleSheetFetcher.Editor.AuthorizeAsyncControl.html">AuthorizeAsyncControl</a></div>
+      <div class="level2"><a class="xref" href="GoogleSheetFetcher.Editor.FetchFilesAsyncControl.html">FetchFilesAsyncControl</a></div>
+      <div class="level2"><a class="xref" href="GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.html">FetchSheetsAsyncControl</a></div>
+      <div class="level2"><a class="xref" href="GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.html">FetchSheetValuesAsyncControl</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html">IAsyncControl</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GoogleSheetFetcher.Editor.AsyncControl.html">GoogleSheetFetcher.Editor.AsyncControl</a></h6>
+  <h6><strong>Assembly</strong>: GoogleSheetFetcher.Editor.dll</h6>
+  <h5 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class AsyncControlBase&lt;TResult&gt; : IAsyncControl</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_CancellationToken.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.CancellationToken%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L217">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_CancellationToken_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.CancellationToken*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_CancellationToken" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.CancellationToken">CancellationToken</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CancellationToken CancellationToken { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Exception.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.Exception%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L177">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Exception_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Exception*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Exception" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Exception">Exception</h4>
+  <div class="markdown level1 summary"><p>The exception when the processing failure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Exception Exception { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_IsDone.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.IsDone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L185">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_IsDone_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.IsDone*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_IsDone" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.IsDone">IsDone</h4>
+  <div class="markdown level1 summary"><p>Whether or not the process completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDone { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Progress.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.Progress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L215">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Progress_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Progress*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Progress" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Progress">Progress</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual float Progress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Result.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.Result%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L181">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Result_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Result*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Result" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Result">Result</h4>
+  <div class="markdown level1 summary"><p>The result of the processing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TResult Result { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Status.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.Status%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L173">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Status_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Status*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Status" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Status">Status</h4>
+  <div class="markdown level1 summary"><p>The state of asynchronous processing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AsyncControlStatus Status { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.html">AsyncControlStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Task.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.Task%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L190">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Task_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Task*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Task" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Task">Task</h4>
+  <div class="markdown level1 summary"><p>Task</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TResult&gt; Task { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Cancel.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.Cancel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L276">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Cancel_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Cancel*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Cancel" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Cancel">Cancel()</h4>
+  <div class="markdown level1 summary"><p>Cancel processing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Cancel()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Failed_System_Exception_.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.Failed(System.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L243">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Failed_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Failed*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Failed_System_Exception_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Failed(System.Exception)">Failed(Exception)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Failed(Exception exception)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><span class="parametername">exception</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_GetProgress.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.GetProgress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L254">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_GetProgress_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.GetProgress*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_GetProgress" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.GetProgress">GetProgress()</h4>
+  <div class="markdown level1 summary"><p>Get the progress of the process.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetProgress()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_OnStart.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.OnStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L281">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_OnStart_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.OnStart*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_OnStart" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.OnStart">OnStart()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnStart()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Start.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L262">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Start_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Start*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Start" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Start processing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Succeeded__0_.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.Succeeded(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L235">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Succeeded_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Succeeded*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Succeeded__0_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Succeeded(`0)">Succeeded(TResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Succeeded(TResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Completed.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.Completed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L169">View Source</a>
+  </span>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Completed" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Completed">Completed</h4>
+  <div class="markdown level1 summary"><p>The event that is called at the end of the process.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action Completed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Task.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601.GoogleSheetFetcher%23Editor%23AsyncControl%23IAsyncControl%23Task%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L213">View Source</a>
+  </span>
+  <a id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Task_" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.GoogleSheetFetcher#Editor#AsyncControl#IAsyncControl#Task*"></a>
+  <h4 id="GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Task" data-uid="GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.GoogleSheetFetcher#Editor#AsyncControl#IAsyncControl#Task">IAsyncControl.Task</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task IAsyncControl.Task { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html">IAsyncControl</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/new/master/apiSpec/new?filename=GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1.md&amp;value=---%0Auid%3A%20GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Haruma-K/GoogleSheetFetcher/blob/master/Packages/com.harumak.googlesheetfetcher/Editor/AsyncControl/AsyncControl.cs/#L164" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Google Sheet Fetcher Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

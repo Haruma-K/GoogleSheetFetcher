@@ -7,6 +7,862 @@ references:
   commentId: N:GoogleSheetFetcher.Editor
   fullName: GoogleSheetFetcher.Editor
   nameWithType: GoogleSheetFetcher.Editor
+- uid: GoogleSheetFetcher.Editor.AsyncControl
+  name: GoogleSheetFetcher.Editor.AsyncControl
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.html
+  commentId: N:GoogleSheetFetcher.Editor.AsyncControl
+  fullName: GoogleSheetFetcher.Editor.AsyncControl
+  nameWithType: GoogleSheetFetcher.Editor.AsyncControl
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase
+  name: AsyncControlBase
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html
+  commentId: T:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase
+  nameWithType: AsyncControlBase
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Cancel
+  name: Cancel()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Cancel
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Cancel
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Cancel()
+  nameWithType: AsyncControlBase.Cancel()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Cancel*
+  name: Cancel
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Cancel_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Cancel
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Cancel
+  nameWithType: AsyncControlBase.Cancel
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.CancellationToken
+  name: CancellationToken
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_CancellationToken
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.CancellationToken
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.CancellationToken
+  nameWithType: AsyncControlBase.CancellationToken
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.CancellationToken*
+  name: CancellationToken
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_CancellationToken_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.CancellationToken
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.CancellationToken
+  nameWithType: AsyncControlBase.CancellationToken
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Completed
+  name: Completed
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Completed
+  commentId: E:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Completed
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Completed
+  nameWithType: AsyncControlBase.Completed
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Exception
+  name: Exception
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Exception
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Exception
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Exception
+  nameWithType: AsyncControlBase.Exception
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Exception*
+  name: Exception
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Exception_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Exception
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Exception
+  nameWithType: AsyncControlBase.Exception
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Failed(System.Exception)
+  name: Failed(Exception)
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Failed_System_Exception_
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Failed(System.Exception)
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Failed(System.Exception)
+  nameWithType: AsyncControlBase.Failed(Exception)
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Failed*
+  name: Failed
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Failed_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Failed
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Failed
+  nameWithType: AsyncControlBase.Failed
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.GetProgress
+  name: GetProgress()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_GetProgress
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.GetProgress
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.GetProgress()
+  nameWithType: AsyncControlBase.GetProgress()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.GetProgress*
+  name: GetProgress
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_GetProgress_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.GetProgress
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.GetProgress
+  nameWithType: AsyncControlBase.GetProgress
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.IsDone
+  name: IsDone
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_IsDone
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.IsDone
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.IsDone
+  nameWithType: AsyncControlBase.IsDone
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.IsDone*
+  name: IsDone
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_IsDone_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.IsDone
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.IsDone
+  nameWithType: AsyncControlBase.IsDone
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.OnStart
+  name: OnStart()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_OnStart
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.OnStart
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.OnStart()
+  nameWithType: AsyncControlBase.OnStart()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.OnStart*
+  name: OnStart
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_OnStart_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.OnStart
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.OnStart
+  nameWithType: AsyncControlBase.OnStart
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Progress
+  name: Progress
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Progress
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Progress
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Progress
+  nameWithType: AsyncControlBase.Progress
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Progress*
+  name: Progress
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Progress_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Progress
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Progress
+  nameWithType: AsyncControlBase.Progress
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Start
+  name: Start()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Start
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Start
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Start()
+  nameWithType: AsyncControlBase.Start()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Start*
+  name: Start
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Start_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Start
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Start
+  nameWithType: AsyncControlBase.Start
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Status
+  name: Status
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Status
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Status
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Status
+  nameWithType: AsyncControlBase.Status
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Status*
+  name: Status
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Status_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Status
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Status
+  nameWithType: AsyncControlBase.Status
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Succeeded
+  name: Succeeded()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Succeeded
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Succeeded
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Succeeded()
+  nameWithType: AsyncControlBase.Succeeded()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Succeeded*
+  name: Succeeded
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Succeeded_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Succeeded
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Succeeded
+  nameWithType: AsyncControlBase.Succeeded
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Task
+  name: Task
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Task
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Task
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Task
+  nameWithType: AsyncControlBase.Task
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Task*
+  name: Task
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_Task_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Task
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.Task
+  nameWithType: AsyncControlBase.Task
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1
+  name: AsyncControlBase<TResult>
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html
+  commentId: T:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1
+  name.vb: AsyncControlBase(Of TResult)
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult)
+  nameWithType: AsyncControlBase<TResult>
+  nameWithType.vb: AsyncControlBase(Of TResult)
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Cancel
+  name: Cancel()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Cancel
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Cancel
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Cancel()
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Cancel()
+  nameWithType: AsyncControlBase<TResult>.Cancel()
+  nameWithType.vb: AsyncControlBase(Of TResult).Cancel()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Cancel*
+  name: Cancel
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Cancel_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Cancel
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Cancel
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Cancel
+  nameWithType: AsyncControlBase<TResult>.Cancel
+  nameWithType.vb: AsyncControlBase(Of TResult).Cancel
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.CancellationToken
+  name: CancellationToken
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_CancellationToken
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.CancellationToken
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.CancellationToken
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).CancellationToken
+  nameWithType: AsyncControlBase<TResult>.CancellationToken
+  nameWithType.vb: AsyncControlBase(Of TResult).CancellationToken
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.CancellationToken*
+  name: CancellationToken
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_CancellationToken_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.CancellationToken
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.CancellationToken
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).CancellationToken
+  nameWithType: AsyncControlBase<TResult>.CancellationToken
+  nameWithType.vb: AsyncControlBase(Of TResult).CancellationToken
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Completed
+  name: Completed
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Completed
+  commentId: E:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Completed
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Completed
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Completed
+  nameWithType: AsyncControlBase<TResult>.Completed
+  nameWithType.vb: AsyncControlBase(Of TResult).Completed
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Exception
+  name: Exception
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Exception
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Exception
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Exception
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Exception
+  nameWithType: AsyncControlBase<TResult>.Exception
+  nameWithType.vb: AsyncControlBase(Of TResult).Exception
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Exception*
+  name: Exception
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Exception_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Exception
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Exception
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Exception
+  nameWithType: AsyncControlBase<TResult>.Exception
+  nameWithType.vb: AsyncControlBase(Of TResult).Exception
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Failed(System.Exception)
+  name: Failed(Exception)
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Failed_System_Exception_
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Failed(System.Exception)
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Failed(System.Exception)
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Failed(System.Exception)
+  nameWithType: AsyncControlBase<TResult>.Failed(Exception)
+  nameWithType.vb: AsyncControlBase(Of TResult).Failed(Exception)
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Failed*
+  name: Failed
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Failed_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Failed
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Failed
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Failed
+  nameWithType: AsyncControlBase<TResult>.Failed
+  nameWithType.vb: AsyncControlBase(Of TResult).Failed
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.GetProgress
+  name: GetProgress()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_GetProgress
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.GetProgress
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.GetProgress()
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).GetProgress()
+  nameWithType: AsyncControlBase<TResult>.GetProgress()
+  nameWithType.vb: AsyncControlBase(Of TResult).GetProgress()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.GetProgress*
+  name: GetProgress
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_GetProgress_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.GetProgress
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.GetProgress
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).GetProgress
+  nameWithType: AsyncControlBase<TResult>.GetProgress
+  nameWithType.vb: AsyncControlBase(Of TResult).GetProgress
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.GoogleSheetFetcher#Editor#AsyncControl#IAsyncControl#Task
+  name: IAsyncControl.Task
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Task
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.GoogleSheetFetcher#Editor#AsyncControl#IAsyncControl#Task
+  name.vb: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task
+  nameWithType: AsyncControlBase<TResult>.IAsyncControl.Task
+  nameWithType.vb: AsyncControlBase(Of TResult).GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.GoogleSheetFetcher#Editor#AsyncControl#IAsyncControl#Task*
+  name: IAsyncControl.Task
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Task_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.GoogleSheetFetcher#Editor#AsyncControl#IAsyncControl#Task
+  isSpec: "True"
+  name.vb: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task
+  nameWithType: AsyncControlBase<TResult>.IAsyncControl.Task
+  nameWithType.vb: AsyncControlBase(Of TResult).GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.IsDone
+  name: IsDone
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_IsDone
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.IsDone
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.IsDone
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).IsDone
+  nameWithType: AsyncControlBase<TResult>.IsDone
+  nameWithType.vb: AsyncControlBase(Of TResult).IsDone
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.IsDone*
+  name: IsDone
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_IsDone_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.IsDone
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.IsDone
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).IsDone
+  nameWithType: AsyncControlBase<TResult>.IsDone
+  nameWithType.vb: AsyncControlBase(Of TResult).IsDone
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.OnStart
+  name: OnStart()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_OnStart
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.OnStart
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.OnStart()
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).OnStart()
+  nameWithType: AsyncControlBase<TResult>.OnStart()
+  nameWithType.vb: AsyncControlBase(Of TResult).OnStart()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.OnStart*
+  name: OnStart
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_OnStart_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.OnStart
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.OnStart
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).OnStart
+  nameWithType: AsyncControlBase<TResult>.OnStart
+  nameWithType.vb: AsyncControlBase(Of TResult).OnStart
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Progress
+  name: Progress
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Progress
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Progress
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Progress
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Progress
+  nameWithType: AsyncControlBase<TResult>.Progress
+  nameWithType.vb: AsyncControlBase(Of TResult).Progress
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Progress*
+  name: Progress
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Progress_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Progress
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Progress
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Progress
+  nameWithType: AsyncControlBase<TResult>.Progress
+  nameWithType.vb: AsyncControlBase(Of TResult).Progress
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Result
+  name: Result
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Result
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Result
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Result
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Result
+  nameWithType: AsyncControlBase<TResult>.Result
+  nameWithType.vb: AsyncControlBase(Of TResult).Result
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Result*
+  name: Result
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Result_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Result
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Result
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Result
+  nameWithType: AsyncControlBase<TResult>.Result
+  nameWithType.vb: AsyncControlBase(Of TResult).Result
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Start
+  name: Start()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Start
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Start
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Start()
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Start()
+  nameWithType: AsyncControlBase<TResult>.Start()
+  nameWithType.vb: AsyncControlBase(Of TResult).Start()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Start*
+  name: Start
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Start_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Start
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Start
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Start
+  nameWithType: AsyncControlBase<TResult>.Start
+  nameWithType.vb: AsyncControlBase(Of TResult).Start
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Status
+  name: Status
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Status
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Status
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Status
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Status
+  nameWithType: AsyncControlBase<TResult>.Status
+  nameWithType.vb: AsyncControlBase(Of TResult).Status
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Status*
+  name: Status
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Status_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Status
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Status
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Status
+  nameWithType: AsyncControlBase<TResult>.Status
+  nameWithType.vb: AsyncControlBase(Of TResult).Status
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Succeeded(`0)
+  name: Succeeded(TResult)
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Succeeded__0_
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Succeeded(`0)
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Succeeded(TResult)
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Succeeded(TResult)
+  nameWithType: AsyncControlBase<TResult>.Succeeded(TResult)
+  nameWithType.vb: AsyncControlBase(Of TResult).Succeeded(TResult)
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Succeeded*
+  name: Succeeded
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Succeeded_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Succeeded
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Succeeded
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Succeeded
+  nameWithType: AsyncControlBase<TResult>.Succeeded
+  nameWithType.vb: AsyncControlBase(Of TResult).Succeeded
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Task
+  name: Task
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Task
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Task
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Task
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Task
+  nameWithType: AsyncControlBase<TResult>.Task
+  nameWithType.vb: AsyncControlBase(Of TResult).Task
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Task*
+  name: Task
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase_1_Task_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase`1.Task
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>.Task
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult).Task
+  nameWithType: AsyncControlBase<TResult>.Task
+  nameWithType.vb: AsyncControlBase(Of TResult).Task
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle
+  name: AsyncControlHandle
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html
+  commentId: T:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle
+  nameWithType: AsyncControlHandle
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.#ctor(GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl)
+  name: AsyncControlHandle(IAsyncControl)
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle__ctor_GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.#ctor(GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl)
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.AsyncControlHandle(GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl)
+  nameWithType: AsyncControlHandle.AsyncControlHandle(IAsyncControl)
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.#ctor*
+  name: AsyncControlHandle
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle__ctor_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.#ctor
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.AsyncControlHandle
+  nameWithType: AsyncControlHandle.AsyncControlHandle
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Cancel
+  name: Cancel()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_Cancel
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Cancel
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Cancel()
+  nameWithType: AsyncControlHandle.Cancel()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Cancel*
+  name: Cancel
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_Cancel_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Cancel
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Cancel
+  nameWithType: AsyncControlHandle.Cancel
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Completed
+  name: Completed
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_Completed
+  commentId: E:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Completed
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Completed
+  nameWithType: AsyncControlHandle.Completed
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Exception
+  name: Exception
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_Exception
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Exception
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Exception
+  nameWithType: AsyncControlHandle.Exception
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Exception*
+  name: Exception
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_Exception_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Exception
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Exception
+  nameWithType: AsyncControlHandle.Exception
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.IsDone
+  name: IsDone
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_IsDone
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.IsDone
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.IsDone
+  nameWithType: AsyncControlHandle.IsDone
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.IsDone*
+  name: IsDone
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_IsDone_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.IsDone
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.IsDone
+  nameWithType: AsyncControlHandle.IsDone
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Progress
+  name: Progress
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_Progress
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Progress
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Progress
+  nameWithType: AsyncControlHandle.Progress
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Progress*
+  name: Progress
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_Progress_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Progress
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Progress
+  nameWithType: AsyncControlHandle.Progress
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Status
+  name: Status
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_Status
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Status
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Status
+  nameWithType: AsyncControlHandle.Status
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Status*
+  name: Status
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_Status_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Status
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Status
+  nameWithType: AsyncControlHandle.Status
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Task
+  name: Task
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_Task
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Task
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Task
+  nameWithType: AsyncControlHandle.Task
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Task*
+  name: Task
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_Task_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Task
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.Task
+  nameWithType: AsyncControlHandle.Task
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1
+  name: AsyncControlHandle<TResult>
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html
+  commentId: T:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1
+  name.vb: AsyncControlHandle(Of TResult)
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult)
+  nameWithType: AsyncControlHandle<TResult>
+  nameWithType.vb: AsyncControlHandle(Of TResult)
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.#ctor(GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase{`0})
+  name: AsyncControlHandle(AsyncControlBase<TResult>)
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1__ctor_GoogleSheetFetcher_Editor_AsyncControl_AsyncControlBase__0__
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.#ctor(GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase{`0})
+  name.vb: AsyncControlHandle(AsyncControlBase(Of TResult))
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.AsyncControlHandle(GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase<TResult>)
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).AsyncControlHandle(GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase(Of TResult))
+  nameWithType: AsyncControlHandle<TResult>.AsyncControlHandle(AsyncControlBase<TResult>)
+  nameWithType.vb: AsyncControlHandle(Of TResult).AsyncControlHandle(AsyncControlBase(Of TResult))
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.#ctor*
+  name: AsyncControlHandle
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1__ctor_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.#ctor
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.AsyncControlHandle
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).AsyncControlHandle
+  nameWithType: AsyncControlHandle<TResult>.AsyncControlHandle
+  nameWithType.vb: AsyncControlHandle(Of TResult).AsyncControlHandle
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Cancel
+  name: Cancel()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_Cancel
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Cancel
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.Cancel()
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).Cancel()
+  nameWithType: AsyncControlHandle<TResult>.Cancel()
+  nameWithType.vb: AsyncControlHandle(Of TResult).Cancel()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Cancel*
+  name: Cancel
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_Cancel_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Cancel
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.Cancel
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).Cancel
+  nameWithType: AsyncControlHandle<TResult>.Cancel
+  nameWithType.vb: AsyncControlHandle(Of TResult).Cancel
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Completed
+  name: Completed
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_Completed
+  commentId: E:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Completed
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.Completed
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).Completed
+  nameWithType: AsyncControlHandle<TResult>.Completed
+  nameWithType.vb: AsyncControlHandle(Of TResult).Completed
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Exception
+  name: Exception
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_Exception
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Exception
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.Exception
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).Exception
+  nameWithType: AsyncControlHandle<TResult>.Exception
+  nameWithType.vb: AsyncControlHandle(Of TResult).Exception
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Exception*
+  name: Exception
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_Exception_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Exception
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.Exception
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).Exception
+  nameWithType: AsyncControlHandle<TResult>.Exception
+  nameWithType.vb: AsyncControlHandle(Of TResult).Exception
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.IsDone
+  name: IsDone
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_IsDone
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.IsDone
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.IsDone
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).IsDone
+  nameWithType: AsyncControlHandle<TResult>.IsDone
+  nameWithType.vb: AsyncControlHandle(Of TResult).IsDone
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.IsDone*
+  name: IsDone
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_IsDone_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.IsDone
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.IsDone
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).IsDone
+  nameWithType: AsyncControlHandle<TResult>.IsDone
+  nameWithType.vb: AsyncControlHandle(Of TResult).IsDone
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Progress
+  name: Progress
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_Progress
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Progress
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.Progress
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).Progress
+  nameWithType: AsyncControlHandle<TResult>.Progress
+  nameWithType.vb: AsyncControlHandle(Of TResult).Progress
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Progress*
+  name: Progress
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_Progress_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Progress
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.Progress
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).Progress
+  nameWithType: AsyncControlHandle<TResult>.Progress
+  nameWithType.vb: AsyncControlHandle(Of TResult).Progress
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Result
+  name: Result
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_Result
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Result
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.Result
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).Result
+  nameWithType: AsyncControlHandle<TResult>.Result
+  nameWithType.vb: AsyncControlHandle(Of TResult).Result
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Result*
+  name: Result
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_Result_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Result
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.Result
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).Result
+  nameWithType: AsyncControlHandle<TResult>.Result
+  nameWithType.vb: AsyncControlHandle(Of TResult).Result
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Status
+  name: Status
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_Status
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Status
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.Status
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).Status
+  nameWithType: AsyncControlHandle<TResult>.Status
+  nameWithType.vb: AsyncControlHandle(Of TResult).Status
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Status*
+  name: Status
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_Status_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Status
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.Status
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).Status
+  nameWithType: AsyncControlHandle<TResult>.Status
+  nameWithType.vb: AsyncControlHandle(Of TResult).Status
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Task
+  name: Task
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_Task
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Task
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.Task
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).Task
+  nameWithType: AsyncControlHandle<TResult>.Task
+  nameWithType.vb: AsyncControlHandle(Of TResult).Task
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Task*
+  name: Task
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlHandle_1_Task_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle`1.Task
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle<TResult>.Task
+  fullName.vb: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle(Of TResult).Task
+  nameWithType: AsyncControlHandle<TResult>.Task
+  nameWithType.vb: AsyncControlHandle(Of TResult).Task
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus
+  name: AsyncControlStatus
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.html
+  commentId: T:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus
+  nameWithType: AsyncControlStatus
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.Failed
+  name: Failed
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlStatus_Failed
+  commentId: F:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.Failed
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.Failed
+  nameWithType: AsyncControlStatus.Failed
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.None
+  name: None
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlStatus_None
+  commentId: F:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.None
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.None
+  nameWithType: AsyncControlStatus.None
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.Processing
+  name: Processing
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlStatus_Processing
+  commentId: F:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.Processing
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.Processing
+  nameWithType: AsyncControlStatus.Processing
+- uid: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.Succeeded
+  name: Succeeded
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.html#GoogleSheetFetcher_Editor_AsyncControl_AsyncControlStatus_Succeeded
+  commentId: F:GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.Succeeded
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.Succeeded
+  nameWithType: AsyncControlStatus.Succeeded
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl
+  name: IAsyncControl
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html
+  commentId: T:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl
+  nameWithType: IAsyncControl
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Cancel
+  name: Cancel()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Cancel
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Cancel
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Cancel()
+  nameWithType: IAsyncControl.Cancel()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Cancel*
+  name: Cancel
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Cancel_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Cancel
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Cancel
+  nameWithType: IAsyncControl.Cancel
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Completed
+  name: Completed
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Completed
+  commentId: E:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Completed
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Completed
+  nameWithType: IAsyncControl.Completed
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Exception
+  name: Exception
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Exception
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Exception
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Exception
+  nameWithType: IAsyncControl.Exception
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Exception*
+  name: Exception
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Exception_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Exception
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Exception
+  nameWithType: IAsyncControl.Exception
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.GetProgress
+  name: GetProgress()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_GetProgress
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.GetProgress
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.GetProgress()
+  nameWithType: IAsyncControl.GetProgress()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.GetProgress*
+  name: GetProgress
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_GetProgress_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.GetProgress
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.GetProgress
+  nameWithType: IAsyncControl.GetProgress
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.IsDone
+  name: IsDone
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_IsDone
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.IsDone
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.IsDone
+  nameWithType: IAsyncControl.IsDone
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.IsDone*
+  name: IsDone
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_IsDone_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.IsDone
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.IsDone
+  nameWithType: IAsyncControl.IsDone
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Start
+  name: Start()
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Start
+  commentId: M:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Start
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Start()
+  nameWithType: IAsyncControl.Start()
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Start*
+  name: Start
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Start_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Start
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Start
+  nameWithType: IAsyncControl.Start
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Status
+  name: Status
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Status
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Status
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Status
+  nameWithType: IAsyncControl.Status
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Status*
+  name: Status
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Status_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Status
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Status
+  nameWithType: IAsyncControl.Status
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task
+  name: Task
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Task
+  commentId: P:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task
+  nameWithType: IAsyncControl.Task
+- uid: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task*
+  name: Task
+  href: api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html#GoogleSheetFetcher_Editor_AsyncControl_IAsyncControl_Task_
+  commentId: Overload:GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.Task
+  nameWithType: IAsyncControl.Task
+- uid: GoogleSheetFetcher.Editor.AuthorizeAsyncControl
+  name: AuthorizeAsyncControl
+  href: api/GoogleSheetFetcher.Editor.AuthorizeAsyncControl.html
+  commentId: T:GoogleSheetFetcher.Editor.AuthorizeAsyncControl
+  fullName: GoogleSheetFetcher.Editor.AuthorizeAsyncControl
+  nameWithType: AuthorizeAsyncControl
+- uid: GoogleSheetFetcher.Editor.AuthorizeAsyncControl.#ctor(System.String,System.String,System.String,System.Collections.Generic.List{System.String})
+  name: AuthorizeAsyncControl(String, String, String, List<String>)
+  href: api/GoogleSheetFetcher.Editor.AuthorizeAsyncControl.html#GoogleSheetFetcher_Editor_AuthorizeAsyncControl__ctor_System_String_System_String_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:GoogleSheetFetcher.Editor.AuthorizeAsyncControl.#ctor(System.String,System.String,System.String,System.Collections.Generic.List{System.String})
+  name.vb: AuthorizeAsyncControl(String, String, String, List(Of String))
+  fullName: GoogleSheetFetcher.Editor.AuthorizeAsyncControl.AuthorizeAsyncControl(System.String, System.String, System.String, System.Collections.Generic.List<System.String>)
+  fullName.vb: GoogleSheetFetcher.Editor.AuthorizeAsyncControl.AuthorizeAsyncControl(System.String, System.String, System.String, System.Collections.Generic.List(Of System.String))
+  nameWithType: AuthorizeAsyncControl.AuthorizeAsyncControl(String, String, String, List<String>)
+  nameWithType.vb: AuthorizeAsyncControl.AuthorizeAsyncControl(String, String, String, List(Of String))
+- uid: GoogleSheetFetcher.Editor.AuthorizeAsyncControl.#ctor*
+  name: AuthorizeAsyncControl
+  href: api/GoogleSheetFetcher.Editor.AuthorizeAsyncControl.html#GoogleSheetFetcher_Editor_AuthorizeAsyncControl__ctor_
+  commentId: Overload:GoogleSheetFetcher.Editor.AuthorizeAsyncControl.#ctor
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AuthorizeAsyncControl.AuthorizeAsyncControl
+  nameWithType: AuthorizeAsyncControl.AuthorizeAsyncControl
+- uid: GoogleSheetFetcher.Editor.AuthorizeAsyncControl.OnStart
+  name: OnStart()
+  href: api/GoogleSheetFetcher.Editor.AuthorizeAsyncControl.html#GoogleSheetFetcher_Editor_AuthorizeAsyncControl_OnStart
+  commentId: M:GoogleSheetFetcher.Editor.AuthorizeAsyncControl.OnStart
+  fullName: GoogleSheetFetcher.Editor.AuthorizeAsyncControl.OnStart()
+  nameWithType: AuthorizeAsyncControl.OnStart()
+- uid: GoogleSheetFetcher.Editor.AuthorizeAsyncControl.OnStart*
+  name: OnStart
+  href: api/GoogleSheetFetcher.Editor.AuthorizeAsyncControl.html#GoogleSheetFetcher_Editor_AuthorizeAsyncControl_OnStart_
+  commentId: Overload:GoogleSheetFetcher.Editor.AuthorizeAsyncControl.OnStart
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.AuthorizeAsyncControl.OnStart
+  nameWithType: AuthorizeAsyncControl.OnStart
 - uid: GoogleSheetFetcher.Editor.Fetcher
   name: Fetcher
   href: api/GoogleSheetFetcher.Editor.Fetcher.html
@@ -74,24 +930,21 @@ references:
   isSpec: "True"
   fullName: GoogleSheetFetcher.Editor.Fetcher.FetchValuesAsync
   nameWithType: Fetcher.FetchValuesAsync
-- uid: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Nullable{System.Threading.CancellationToken})
-  name: InitializeAsync(String, String, String, List<String>, Nullable<CancellationToken>)
-  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_System_Collections_Generic_List_System_String__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Nullable{System.Threading.CancellationToken})
-  name.vb: InitializeAsync(String, String, String, List(Of String), Nullable(Of CancellationToken))
-  fullName: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String, System.String, System.String, System.Collections.Generic.List<System.String>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String, System.String, System.String, System.Collections.Generic.List(Of System.String), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: Fetcher.InitializeAsync(String, String, String, List<String>, Nullable<CancellationToken>)
-  nameWithType.vb: Fetcher.InitializeAsync(String, String, String, List(Of String), Nullable(Of CancellationToken))
-- uid: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: InitializeAsync(String, String, String, Nullable<CancellationToken>)
-  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: InitializeAsync(String, String, String, Nullable(Of CancellationToken))
-  fullName: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String, System.String, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String, System.String, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: Fetcher.InitializeAsync(String, String, String, Nullable<CancellationToken>)
-  nameWithType.vb: Fetcher.InitializeAsync(String, String, String, Nullable(Of CancellationToken))
+- uid: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String)
+  name: InitializeAsync(String, String, String)
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_
+  commentId: M:GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String)
+  fullName: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String, System.String, System.String)
+  nameWithType: Fetcher.InitializeAsync(String, String, String)
+- uid: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Collections.Generic.List{System.String})
+  name: InitializeAsync(String, String, String, List<String>)
+  href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_System_String_System_String_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String,System.String,System.String,System.Collections.Generic.List{System.String})
+  name.vb: InitializeAsync(String, String, String, List(Of String))
+  fullName: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String, System.String, System.String, System.Collections.Generic.List<System.String>)
+  fullName.vb: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync(System.String, System.String, System.String, System.Collections.Generic.List(Of System.String))
+  nameWithType: Fetcher.InitializeAsync(String, String, String, List<String>)
+  nameWithType.vb: Fetcher.InitializeAsync(String, String, String, List(Of String))
 - uid: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync*
   name: InitializeAsync
   href: api/GoogleSheetFetcher.Editor.Fetcher.html#GoogleSheetFetcher_Editor_Fetcher_InitializeAsync_
@@ -99,6 +952,105 @@ references:
   isSpec: "True"
   fullName: GoogleSheetFetcher.Editor.Fetcher.InitializeAsync
   nameWithType: Fetcher.InitializeAsync
+- uid: GoogleSheetFetcher.Editor.FetchFilesAsyncControl
+  name: FetchFilesAsyncControl
+  href: api/GoogleSheetFetcher.Editor.FetchFilesAsyncControl.html
+  commentId: T:GoogleSheetFetcher.Editor.FetchFilesAsyncControl
+  fullName: GoogleSheetFetcher.Editor.FetchFilesAsyncControl
+  nameWithType: FetchFilesAsyncControl
+- uid: GoogleSheetFetcher.Editor.FetchFilesAsyncControl.#ctor(DriveService,System.String,GoogleSheetFetcher.Editor.FileType[],System.Int32,System.String)
+  name: FetchFilesAsyncControl(DriveService, String, FileType[], Int32, String)
+  href: api/GoogleSheetFetcher.Editor.FetchFilesAsyncControl.html#GoogleSheetFetcher_Editor_FetchFilesAsyncControl__ctor_DriveService_System_String_GoogleSheetFetcher_Editor_FileType___System_Int32_System_String_
+  commentId: M:GoogleSheetFetcher.Editor.FetchFilesAsyncControl.#ctor(DriveService,System.String,GoogleSheetFetcher.Editor.FileType[],System.Int32,System.String)
+  name.vb: FetchFilesAsyncControl(DriveService, String, FileType(), Int32, String)
+  fullName: GoogleSheetFetcher.Editor.FetchFilesAsyncControl.FetchFilesAsyncControl(DriveService, System.String, GoogleSheetFetcher.Editor.FileType[], System.Int32, System.String)
+  fullName.vb: GoogleSheetFetcher.Editor.FetchFilesAsyncControl.FetchFilesAsyncControl(DriveService, System.String, GoogleSheetFetcher.Editor.FileType(), System.Int32, System.String)
+  nameWithType: FetchFilesAsyncControl.FetchFilesAsyncControl(DriveService, String, FileType[], Int32, String)
+  nameWithType.vb: FetchFilesAsyncControl.FetchFilesAsyncControl(DriveService, String, FileType(), Int32, String)
+- uid: GoogleSheetFetcher.Editor.FetchFilesAsyncControl.#ctor*
+  name: FetchFilesAsyncControl
+  href: api/GoogleSheetFetcher.Editor.FetchFilesAsyncControl.html#GoogleSheetFetcher_Editor_FetchFilesAsyncControl__ctor_
+  commentId: Overload:GoogleSheetFetcher.Editor.FetchFilesAsyncControl.#ctor
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.FetchFilesAsyncControl.FetchFilesAsyncControl
+  nameWithType: FetchFilesAsyncControl.FetchFilesAsyncControl
+- uid: GoogleSheetFetcher.Editor.FetchFilesAsyncControl.OnStart
+  name: OnStart()
+  href: api/GoogleSheetFetcher.Editor.FetchFilesAsyncControl.html#GoogleSheetFetcher_Editor_FetchFilesAsyncControl_OnStart
+  commentId: M:GoogleSheetFetcher.Editor.FetchFilesAsyncControl.OnStart
+  fullName: GoogleSheetFetcher.Editor.FetchFilesAsyncControl.OnStart()
+  nameWithType: FetchFilesAsyncControl.OnStart()
+- uid: GoogleSheetFetcher.Editor.FetchFilesAsyncControl.OnStart*
+  name: OnStart
+  href: api/GoogleSheetFetcher.Editor.FetchFilesAsyncControl.html#GoogleSheetFetcher_Editor_FetchFilesAsyncControl_OnStart_
+  commentId: Overload:GoogleSheetFetcher.Editor.FetchFilesAsyncControl.OnStart
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.FetchFilesAsyncControl.OnStart
+  nameWithType: FetchFilesAsyncControl.OnStart
+- uid: GoogleSheetFetcher.Editor.FetchSheetsAsyncControl
+  name: FetchSheetsAsyncControl
+  href: api/GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.html
+  commentId: T:GoogleSheetFetcher.Editor.FetchSheetsAsyncControl
+  fullName: GoogleSheetFetcher.Editor.FetchSheetsAsyncControl
+  nameWithType: FetchSheetsAsyncControl
+- uid: GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.#ctor(SheetsService,System.String)
+  name: FetchSheetsAsyncControl(SheetsService, String)
+  href: api/GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.html#GoogleSheetFetcher_Editor_FetchSheetsAsyncControl__ctor_SheetsService_System_String_
+  commentId: M:GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.#ctor(SheetsService,System.String)
+  fullName: GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.FetchSheetsAsyncControl(SheetsService, System.String)
+  nameWithType: FetchSheetsAsyncControl.FetchSheetsAsyncControl(SheetsService, String)
+- uid: GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.#ctor*
+  name: FetchSheetsAsyncControl
+  href: api/GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.html#GoogleSheetFetcher_Editor_FetchSheetsAsyncControl__ctor_
+  commentId: Overload:GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.#ctor
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.FetchSheetsAsyncControl
+  nameWithType: FetchSheetsAsyncControl.FetchSheetsAsyncControl
+- uid: GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.OnStart
+  name: OnStart()
+  href: api/GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.html#GoogleSheetFetcher_Editor_FetchSheetsAsyncControl_OnStart
+  commentId: M:GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.OnStart
+  fullName: GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.OnStart()
+  nameWithType: FetchSheetsAsyncControl.OnStart()
+- uid: GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.OnStart*
+  name: OnStart
+  href: api/GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.html#GoogleSheetFetcher_Editor_FetchSheetsAsyncControl_OnStart_
+  commentId: Overload:GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.OnStart
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.OnStart
+  nameWithType: FetchSheetsAsyncControl.OnStart
+- uid: GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl
+  name: FetchSheetValuesAsyncControl
+  href: api/GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.html
+  commentId: T:GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl
+  fullName: GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl
+  nameWithType: FetchSheetValuesAsyncControl
+- uid: GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.#ctor(SheetsService,System.String,System.String)
+  name: FetchSheetValuesAsyncControl(SheetsService, String, String)
+  href: api/GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.html#GoogleSheetFetcher_Editor_FetchSheetValuesAsyncControl__ctor_SheetsService_System_String_System_String_
+  commentId: M:GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.#ctor(SheetsService,System.String,System.String)
+  fullName: GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.FetchSheetValuesAsyncControl(SheetsService, System.String, System.String)
+  nameWithType: FetchSheetValuesAsyncControl.FetchSheetValuesAsyncControl(SheetsService, String, String)
+- uid: GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.#ctor*
+  name: FetchSheetValuesAsyncControl
+  href: api/GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.html#GoogleSheetFetcher_Editor_FetchSheetValuesAsyncControl__ctor_
+  commentId: Overload:GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.#ctor
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.FetchSheetValuesAsyncControl
+  nameWithType: FetchSheetValuesAsyncControl.FetchSheetValuesAsyncControl
+- uid: GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.OnStart
+  name: OnStart()
+  href: api/GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.html#GoogleSheetFetcher_Editor_FetchSheetValuesAsyncControl_OnStart
+  commentId: M:GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.OnStart
+  fullName: GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.OnStart()
+  nameWithType: FetchSheetValuesAsyncControl.OnStart()
+- uid: GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.OnStart*
+  name: OnStart
+  href: api/GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.html#GoogleSheetFetcher_Editor_FetchSheetValuesAsyncControl_OnStart_
+  commentId: Overload:GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.OnStart
+  isSpec: "True"
+  fullName: GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.OnStart
+  nameWithType: FetchSheetValuesAsyncControl.OnStart
 - uid: GoogleSheetFetcher.Editor.File
   name: File
   href: api/GoogleSheetFetcher.Editor.File.html

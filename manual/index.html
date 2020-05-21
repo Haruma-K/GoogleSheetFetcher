@@ -205,13 +205,13 @@ And enable the <code>Google Drive API</code> in the same way.</p>
 <p>First, instantiate and initialize the Fetcher.</p>
 <pre><code class="lang-cs">// Google OAuth2 authorization.
 var fetcher = new Fetcher();
-await fetcher.InitializeAsync(_clientId, _clientSecret, _applicationId);
+await fetcher.InitializeAsync(_clientId, _clientSecret, _applicationId).Task;
 </code></pre><p>Then, the OAuth2 authentication page by Google will be opened.
 When the user completes the authorization, the authorization information is saved.</p>
 <h4 id="fetch-values-of-a-sheet">Fetch values of a sheet</h4>
 <p>After the authorization, you can fetch the data from Spreadsheet.</p>
 <pre><code class="lang-cs">// Get all the values in the sheet.
-var values = await fetcher.FetchValuesAsync(_spreadsheetId, sheets[0]);
+var values = await fetcher.FetchValuesAsync(_spreadsheetId, sheets[0]).Task;
 </code></pre><p>For other APIs, refer to the <a href="../api/GoogleSheetFetcher.Editor.Fetcher.html">API documentation of the Fetcher class</a>.</p>
 </article>
           </div>
