@@ -144,6 +144,7 @@ public class DemoInspector : Editor
                 component.LogAllValuesOfFirstSheetAsync();
             }
         }
+
         serializedObject.ApplyModifiedProperties();
     }
 }
