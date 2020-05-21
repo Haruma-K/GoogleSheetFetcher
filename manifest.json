@@ -24,11 +24,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.yml",
+      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.AsyncControlBase-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase-1.html",
-          "hash": "OEgN2H79HBE4UpzB2kOEfQ=="
+          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.AsyncControlBase-1.html",
+          "hash": "IV0xOCPHmOfUG/dF0luZQQ=="
         }
       },
       "is_incremental": false,
@@ -36,11 +36,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.yml",
+      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.AsyncControlBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlBase.html",
-          "hash": "BgqUxQuNQiAFmVPPIgUF1w=="
+          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.AsyncControlBase.html",
+          "hash": "QjMUBBnSUuFkDzl1fYC2AQ=="
         }
       },
       "is_incremental": false,
@@ -48,11 +48,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.yml",
+      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.AsyncControlHandle-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle-1.html",
-          "hash": "w40gEhto+Fc/PuBYB64mMw=="
+          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.AsyncControlHandle-1.html",
+          "hash": "ZJLYelovGKajGkhp+SQ8eQ=="
         }
       },
       "is_incremental": false,
@@ -60,11 +60,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.yml",
+      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.AsyncControlHandle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlHandle.html",
-          "hash": "8leQ4YZIr5CVLeOvYOnm4g=="
+          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.AsyncControlHandle.html",
+          "hash": "rLGqxhR8SLQBJT4lXzoTIg=="
         }
       },
       "is_incremental": false,
@@ -72,11 +72,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.yml",
+      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.AsyncControlStatus.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.AsyncControlStatus.html",
-          "hash": "rbEZtSX3+QeX9SNO/qrkBg=="
+          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.AsyncControlStatus.html",
+          "hash": "h2gMP6skYH+Qlfu/MzdUXg=="
         }
       },
       "is_incremental": false,
@@ -84,11 +84,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.yml",
+      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.IAsyncControl.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.IAsyncControl.html",
-          "hash": "aA6LIwJcWZJGZ/iEmAWYWQ=="
+          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.IAsyncControl.html",
+          "hash": "Cdsshmzxaei/SolMDS1cQg=="
         }
       },
       "is_incremental": false,
@@ -96,11 +96,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.yml",
+      "source_relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControl.html",
-          "hash": "SVklxHeRCxFmy3dbs2T1CQ=="
+          "relative_path": "api/GoogleSheetFetcher.Editor.AsyncControls.html",
+          "hash": "jXrAZ8xx0K8pQMalKkw/kw=="
         }
       },
       "is_incremental": false,
@@ -112,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GoogleSheetFetcher.Editor.AuthorizeAsyncControl.html",
-          "hash": "JyuuW03i4oHSs9i6n448Ow=="
+          "hash": "LBZ7Womtt5g5ZMIwEDqtDQ=="
         }
       },
       "is_incremental": false,
@@ -124,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GoogleSheetFetcher.Editor.FetchFilesAsyncControl.html",
-          "hash": "nlsVw5GBIRbCHFPAK0LwaQ=="
+          "hash": "d90AZwjwVH5ucbnvLbQddw=="
         }
       },
       "is_incremental": false,
@@ -136,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GoogleSheetFetcher.Editor.FetchSheetValuesAsyncControl.html",
-          "hash": "Lq1S1zdXWwRJib4tw71+xg=="
+          "hash": "EkmTuSddcdWlZwDLRGyUkQ=="
         }
       },
       "is_incremental": false,
@@ -148,7 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GoogleSheetFetcher.Editor.FetchSheetsAsyncControl.html",
-          "hash": "Qy2HtZ1yZfOqY7D8oD9SlA=="
+          "hash": "HDWt5wAyClIqRB+B5se+MA=="
         }
       },
       "is_incremental": false,
@@ -160,7 +160,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GoogleSheetFetcher.Editor.Fetcher.html",
-          "hash": "4rzdPawacs/3WX5Xw6FcFg=="
+          "hash": "G3lOqOMFEyVyIolmy+Sv0w=="
         }
       },
       "is_incremental": false,
@@ -232,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "4trUYzFqzwjJlILxGmvdpA=="
+          "hash": "e2DZzjKB+efqlNig4ArVcw=="
         }
       },
       "is_incremental": false,
